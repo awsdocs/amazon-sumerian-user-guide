@@ -20,15 +20,15 @@ This is the HTML used for the HTML component shown in the screenshot above\.
 ```
 <style>
 .my-paragraph{
-    background:#fefefe;
-    font-size:16px;
-    padding:10px;
-    border-radius:3px;
-    margin:0;
-    font-family:sans-serif;
+  background:#fefefe;
+  font-size:16px;
+  padding:10px;
+  border-radius:3px;
+  margin:0;
+  font-family:sans-serif;
 }
 </style>
 <pclass="my-paragraph">
-    This is HTML
+  This is HTML
 </p>
 ```

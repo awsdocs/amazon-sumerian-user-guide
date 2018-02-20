@@ -18,12 +18,12 @@ To structure your parameters, you can store them in JSON file\. Start by definin
 
 ```
 varsetup=function(args,ctx){
-    console.log(args.myJsonParameter);// Prints the parsed JSON data
+  console.log(args.myJsonParameter);// Prints the parsed JSON data
 };
- 
+
 var parameters=[{
-    key:'myJsonParameter',
-    type:'json'
+  key:'myJsonParameter',
+  type:'json'
 }];
 ```
 
@@ -43,8 +43,8 @@ var parameters=[{
 
    ```
    var parameters=[{
-       key:'myJsonParameter',
-       type:'json'
+     key:'myJsonParameter',
+     type:'json'
    }];
    ```
 

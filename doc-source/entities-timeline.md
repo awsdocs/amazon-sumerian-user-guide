@@ -1,17 +1,23 @@
 # The Amazon Sumerian Timeline Component<a name="entities-timeline"></a>
 
-The timeline component animates properties of an entity over time, such as the transform\.
+Use timelines to move, rotate, or change the scale of entities over time\. You can set the start and end values of these properties, and add keyframes to control the speed or direction of the animation along the way\. The timeline can also emit custom events, which can be consumed from a state machine or script\.
 
-When you add the timeline component to an entity, you'll get a component panel with just one button\. Choose the *Toggle timeline* button to open the timeline\.
+![\[Image NOT FOUND\]](http://docs.aws.amazon.com/sumerian/latest/userguide/images/tools-timeline.png)
 
-To add an entity to your timeline, drag it from the Hierarchy view to the drop area at the left bottom in the timeline\. The entity will appear to the left in the timeline\. View the entity properties available for animation by clicking on it\. Each property is called a *Channel*\.
+To create a timeline, choose **Create entity**, **Timeline**\. You can also add the timeline component to an existing entity, but don't add it to the entity that you want to animate\. The timeline can only control entities other than the one to which it is attached\.
 
-Note that you can *not* add the owner entity to the timeline\.
+**Properties**
 
-To change a property value over time, you add *Keyframes* to a *Channel*\. A Keyframe has a position on the timeline, a value and an easing function\. As time go by, the property value will be set to the value given by the keyframes, interpolated by the easing functions\.
++ **Duration** – the length of the timeline, in seconds\.
 
-The timeline has a start and an end\. You can set the duration of the timeline and toggle looping in the right bottom corner\.
++ **Loop** – enable to repeat the timeline animation in a loop\.
 
-Event channels are used to emit SystemBus events at given points in time\. Choose *Add Event Channel* to add a channel for an event\. You will be prompted for an event name to use\.
++ **Auto start** – if you want to trigger the timeline with a state machine or script, disable this option to prevent the timeline from starting automatically in playback mode\.
 
-To fetch these events, you can use `SystemBus.addListener` in a Script or use the *Listen Action* in the State Machine\. Make sure to listen for the same event name that you specified when adding the channel\.
+To open the timeline editor, choose **Toggle timeline** in the timeline component, or choose **Timeline** from the tools menu\.
+
+To add entities to the timline, drag them from the entities panel onto the timeline editor\. Each *channel* in the editor controls one property of the transform, such as the X translation, or the Z scale\. Click on the clock icon next to a property to enable the channel and add the first keyframe\.
+
+Add more keyframes to a channel by choosing a time and changing the property's value\. During playback, the entity will animate between the transform values at each keyframe\. By default, changing a property's value automatically creates a keyframe\. You can disable this by clicking on the key icon next to the **Drop entity here** field\.
+
+Add **Event channels** to the timeline to emit custom events onto the system bus\. The name of the channel is the name of the event that Sumerian emits at each keyframe on the event channel\. Consume this event from a script with [SystemBus\.addListener](https://docs.sumerian.amazonaws.com/engine/latest/docs/Bus.html), or from a state machine with the **Listen Action**\.

@@ -1,4 +1,4 @@
-# Packs<a name="assets-packs"></a>
+# Amazon Sumerian Asset Packs<a name="assets-packs"></a>
 
 You can organize your assets and share them between scenes by creating a *pack*\. Create a pack in the assets panel and move or copy assets into it\.
 

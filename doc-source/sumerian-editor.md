@@ -40,5 +40,6 @@ The following topics describe the menu options in each of the areas of the edito
 + [Using the Assets Panel in the Amazon Sumerian Editor](editor-assets.md)
 + [Using The Entities Panel in the Amazon Sumerian Editor](editor-entities.md)
 + [Using the Inspector Panel in the Amazon Sumerian Editor](editor-inspector.md)
++ [Using the Tools in the Amazon Sumerian Editor](editor-tools.md)
 + [Keyboard and Mouse Controls for the Amazon Sumerian Editor](editor-shortcuts.md)
 + [Publishing Scenes in the Amazon Sumerian Editor](editor-publish.md)

@@ -78,25 +78,50 @@ Some components also have special properties that are affected by the components
 
 The following topics describe the parameters and usage of each type of component\.
 
+**Basic Components**
 
-+ [The Amazon Sumerian Transform Component](entities-transform.md)
-+ [The Amazon Sumerian Geometry Component](entities-geometry.md)
-+ [The Amazon Sumerian Material Component](entities-material.md)
-+ [The Amazon Sumerian Camera Component](entities-camera.md)
-+ [The Amazon Sumerian VR Camera Rig Component](entities-vrcamerarig.md)
-+ [The Amazon Sumerian HMD Camera Component](entities-hmdcamera.md)
-+ [The Amazon Sumerian VR Controller Component](entities-vrcontroller.md)
-+ [The Amazon Sumerian Host Component](entities-host.md)
-+ [The Amazon Sumerian Speech Component](entities-speech.md)
-+ [The Amazon Sumerian 2D Graphics Component](entities-2dgraphics.md)
-+ [The Amazon Sumerian HTML Component](entities-html.md)
-+ [The Amazon Sumerian HTML 3D Component](entities-html3d.md)
-+ [The Amazon Sumerian Sound Component](entities-sound.md)
-+ [The Amazon Sumerian Light Component](entities-light.md)
-+ [The Amazon Sumerian Particle System Component](entities-particlesystem.md)
-+ [The Amazon Sumerian Animation Component](entities-animation.md)
-+ [The Amazon Sumerian Collider Component](entities-collider.md)
-+ [The Amazon Sumerian Rigid Body Component](entities-rigidbody.md)
-+ [The Amazon Sumerian State Machine Component](entities-statemachine.md)
-+ [The Amazon Sumerian Script Component](entities-script.md)
-+ [The Amazon Sumerian Timeline Component](entities-timeline.md)
++ 
+
++ 
+
++ 
+
++ 
+
++ 
+
++ 
+
++ 
+
++ 
+
++ 
+
+**Content and Effects**
+
++ 
+
++ 
+
++ 
+
++ 
+
++ 
+
++ 
+
+**Animation and Physics**
+
++ 
+
++ 
+
++ 
+
++ 
+
++ 
+
++ 

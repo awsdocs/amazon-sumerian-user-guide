@@ -1,7 +1,7 @@
 # Amazon Sumerian User Guide
 
 -----
-*****Copyright &copy; 2017 Amazon Web Services, Inc. and/or its affiliates. All rights reserved.*****
+*****Copyright &copy; 2018 Amazon Web Services, Inc. and/or its affiliates. All rights reserved.*****
 
 -----
 Amazon's trademarks and trade dress may not be used in 
@@ -16,8 +16,9 @@ Amazon's trademarks and trade dress may not be used in
 ## Contents
 + [What Is Amazon Sumerian?](amazon-sumerian.md)
 + [Amazon Sumerian Use Cases and Requirements](sumerian-usecases.md)
-+ [Amazon Sumerian Concepts](sumerian-concepts.md)
 + [Amazon Sumerian Permissions](sumerian-permissions.md)
++ [Getting Started with Amazon Sumerian](sumerian-gettingstarted.md)
++ [Amazon Sumerian Concepts](sumerian-concepts.md)
 + [The Amazon Sumerian Dashboard](sumerian-dashboard.md)
    + [Projects](dashboard-projects.md)
    + [Scenes](dashboard-scenes.md)
@@ -30,6 +31,7 @@ Amazon's trademarks and trade dress may not be used in
    + [Using the Assets Panel in the Amazon Sumerian Editor](editor-assets.md)
    + [Using The Entities Panel in the Amazon Sumerian Editor](editor-entities.md)
    + [Using the Inspector Panel in the Amazon Sumerian Editor](editor-inspector.md)
+   + [Using the Tools in the Amazon Sumerian Editor](editor-tools.md)
    + [Keyboard and Mouse Controls for the Amazon Sumerian Editor](editor-shortcuts.md)
    + [Publishing Scenes in the Amazon Sumerian Editor](editor-publish.md)
 + [Amazon Sumerian Scene Settings](sumerian-scene.md)
@@ -63,7 +65,11 @@ Amazon's trademarks and trade dress may not be used in
    + [The Amazon Sumerian Script Component](entities-script.md)
    + [The Amazon Sumerian Timeline Component](entities-timeline.md)
 + [Assets](sumerian-assets.md)
-   + [Packs](assets-packs.md)
+   + [Amazon Sumerian Asset Packs](assets-packs.md)
+   + [Amazon Sumerian Scene Templates](assets-templates.md)
+   + [Amazon Sumerian Virtual Reality Tools](assets-vrtools.md)
+   + [Amazon Sumerian Augmented Reality Tools](assets-artools.md)
+   + [Amazon Sumerian Hosts](assets-hosts.md)
    + [Models](assets-models.md)
    + [Skybox](assets-skybox.md)
    + [Media](assets-media.md)

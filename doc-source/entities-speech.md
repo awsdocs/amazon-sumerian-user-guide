@@ -33,14 +33,14 @@ Sumerian calls Amazon Polly when you play a speech, so you must use the `aws.sdk
 ```
 'use strict';
 var setup = function(args, ctx) {
-  sumerian.SystemBus.addListener('aws.sdkReady',
-    () => {
-      var speechComponent = ctx.entity.getComponent("speechComponent");
-      var speeches = speechComponent.speeches;
-      var speech = speeches[Math.floor(Math.random() * speeches.length)];
-      speech.play();
-    },
-    true
-  );
+sumerian.SystemBus.addListener('aws.sdkReady',
+  () => {
+    var speechComponent = ctx.entity.getComponent("speechComponent");
+    var speeches = speechComponent.speeches;
+    var speech = speeches[Math.floor(Math.random() * speeches.length)];
+    speech.play();
+  },
+  true
+);
 };
 ```

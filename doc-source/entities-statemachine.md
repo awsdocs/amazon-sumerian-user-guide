@@ -50,7 +50,13 @@ Many of the actions have events, and they can trigger transitions to other state
 
 + **Emit message** – emit a message \(a ping\) to a channel on the bus\. Messages can be listened to by the Listen action, or by scripts using the SystemBus\.addListener\(channel, callback\) function\.
 
-+ **Fire FX** – make the entity emit fire\. To extinguish the fire use the **Remove particles** action\.  
++ **Execute script** – run a script, and transition on success or failure\.
+
++ **Execute script condition** – evaluate an expression, and transition on a true or false result\.
+
++ **Execute script expression** – execute a statement\.
+
++ **Fire FX** – make the entity emit fire\. To extinguish the fire, use the **Remove particles** action\.  
 ![\[Image NOT FOUND\]](http://docs.aws.amazon.com/sumerian/latest/userguide/)
 
 + **Hide** – hide an entity and its children\.
@@ -155,7 +161,7 @@ Many of the actions have events, and they can trigger transitions to other state
 
 + **Show** – make an entity visible\.
 
-+ **Smoke FX** – make an entity emit smoke\. To cancel the smoke emitter use the **Remove particles** action\.  
++ **Smoke FX** – make an entity emit smoke\. To cancel the smoke emitter, use the **Remove particles** action\.  
 ![\[Image NOT FOUND\]](http://docs.aws.amazon.com/sumerian/latest/userguide/)
 
 + **Sound fade in** – fade in a sound\.

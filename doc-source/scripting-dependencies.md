@@ -1,8 +1,6 @@
 # External Dependencies<a name="scripting-dependencies"></a>
 
-You can load external JavaScript libraries from the web into your script, enter a URL in the left panel of the script editor, and click the *\+* button\.
-
-Note that the URLs you enter should start with *//* and not *http://* or *https://*\.
+If your script uses external JavaScript libraries from the web into your script, declare them in the **External resources** section of the text editor\.
 
 **To declare external dependencies**
 
@@ -17,4 +15,4 @@ Note that the URLs you enter should start with *//* and not *http://* or *https:
 1. Click the plus icon to add the library to the list\.  
 ![\[Image NOT FOUND\]](http://docs.aws.amazon.com/sumerian/latest/userguide/images/components-script-externalresource.png)
 
-The JavaScript dependencies will be loaded and executed immediately inside the editor \(click “Refresh resources” to re\-download and execute\)\. In your published scene, all dependencies will be loaded and executed during the loading phase\.
+The editor loads libraries as soon as you add them to this list\. To reload a library, choose **Refresh resources**\. In your published scene, all dependencies are loaded and executed during the loading phase\.
