@@ -1,6 +1,6 @@
 # Entities<a name="sumerian-entities"></a>
 
-Entities are containers for components that can be positioned in a scene\. You can create blank entities, or import an asset to create an entity with the appropriate components already attached\. The Entities panel organizes entities into a hierarchy and lets you attach entities to one another in a parent\-child relationship\.
+Entities are containers for components that can be positioned in a scene\. You can create blank entities, or import an asset to create an entity with the appropriate components already attached\. The [Entities panel](editor-entities.md) organizes entities into a hierarchy and lets you attach entities to one another in a parent\-child relationship\.
 
 The components attached to an entity determine its appearance and behavior during playback\. You can add a camera component to a component to make it a camera, or a light component to make it a light\. 
 
@@ -80,48 +80,48 @@ The following topics describe the parameters and usage of each type of component
 
 **Basic Components**
 
-+ 
++ [The Amazon Sumerian Transform Component](entities-transform.md)
 
-+ 
++ [The Amazon Sumerian Geometry Component](entities-geometry.md)
 
-+ 
++ [The Amazon Sumerian Material Component](entities-material.md)
 
-+ 
++ [The Amazon Sumerian Camera Component](entities-camera.md)
 
-+ 
++ [The Amazon Sumerian VR Camera Rig Component](entities-vrcamerarig.md)
 
-+ 
++ [The Amazon Sumerian HMD Camera Component](entities-hmdcamera.md)
 
-+ 
++ [The Amazon Sumerian VR Controller Component](entities-vrcontroller.md)
 
-+ 
++ [The Amazon Sumerian Host Component](entities-host.md)
 
-+ 
++ [The Amazon Sumerian Speech Component](entities-speech.md)
 
 **Content and Effects**
 
-+ 
++ [The Amazon Sumerian 2D Graphics Component](entities-2dgraphics.md)
 
-+ 
++ [The Amazon Sumerian HTML Component](entities-html.md)
 
-+ 
++ [The Amazon Sumerian HTML 3D Component](entities-html3d.md)
 
-+ 
++ [The Amazon Sumerian Sound Component](entities-sound.md)
 
-+ 
++ [The Amazon Sumerian Light Component](entities-light.md)
 
-+ 
++ [The Amazon Sumerian Particle System Component](entities-particlesystem.md)
 
 **Animation and Physics**
 
-+ 
++ [The Amazon Sumerian Animation Component](entities-animation.md)
 
-+ 
++ [The Amazon Sumerian Collider Component](entities-collider.md)
 
-+ 
++ [The Amazon Sumerian Rigid Body Component](entities-rigidbody.md)
 
-+ 
++ [The Amazon Sumerian State Machine Component](entities-statemachine.md)
 
-+ 
++ [The Amazon Sumerian Script Component](entities-script.md)
 
-+ 
++ [The Amazon Sumerian Timeline Component](entities-timeline.md)

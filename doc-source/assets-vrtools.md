@@ -24,7 +24,7 @@ Sumerian provides a pack of VR\-related assets to make it easy to enable VR in y
 
 1. Check the **Current VR camera rig** option to enable the rig\.
 
-When a user enters VR mode with a headset and controllers attached, the HMD camera tracks the headset, and the VR controllers track the controllers in 3D space\. The VR camera rig manages the other entities and enables the VR mode button in the scene\.
+When a user enters VR mode with a headset and controllers attached, the [HMD camera](entities-hmdcamera.md) tracks the headset, and the [VR controllers](entities-vrcontroller.md) track the controllers in 3D space\. The [VR camera rig](entities-vrcamerarig.md) manages the other entities and enables the VR mode button in the scene\.
 
 Only the controllers of the type attached are rendered in the scene, so you can leave all of the included entities attached to support both types\. You can also replace the included controller models with your own\.
 

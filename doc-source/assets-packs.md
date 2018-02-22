@@ -12,7 +12,7 @@ Packs support the following actions\.
 
 + ![\[Image NOT FOUND\]](http://docs.aws.amazon.com/sumerian/latest/userguide/images/assets-icons-trash.png) – delete the asset pack\.
 
-Exporting a pack adds it to the project that you choose\. If you do not have a project yet, create one in the dashboard\. You can then use the dashboard to copy or move the pack to a different scene or project\. Exported packs are not tied to the in\-scene pack or its assets\.
+Exporting a pack adds it to the project that you choose\. If you do not have a project yet, [create one in the dashboard](dashboard-projects.md)\. You can then use the dashboard to [copy or move the pack](dashboard-assets.md) to a different scene or project\. Exported packs are not tied to the in\-scene pack or its assets\.
 
 **To add an asset to a pack and export it**
 
@@ -31,7 +31,7 @@ Exporting a pack adds it to the project that you choose\. If you do not have a p
 1. Select the custom pack and then click the asset library icon ![\[Image NOT FOUND\]](http://docs.aws.amazon.com/sumerian/latest/userguide/images/assets-icons-assetlib.png), or choose **Add to asset library** in the inspector panel\.  
 ![\[Image NOT FOUND\]](http://docs.aws.amazon.com/sumerian/latest/userguide/images/assets-pack-export.png)
 
-1. Choose an asset type for the asset pack\.
+1. Choose an [asset type](sumerian-assets.md) for the asset pack\.
 
 1. Choose **Add to asset library**\.
 

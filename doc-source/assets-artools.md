@@ -2,7 +2,7 @@
 
 Sumerian provides a template, assets, and sample project that you can use to develop augmented reality \(AR\) applications for iOS devices\.
 
-The **Augmented Reality** scene template is available in the dashboard\. Use it as a starting point for your augmented reality scene\.
+The **Augmented Reality** scene template is available in the [dashboard](sumerian-dashboard.md)\. Use it as a starting point for your augmented reality scene\.
 
 ![\[Image NOT FOUND\]](http://docs.aws.amazon.com/sumerian/latest/userguide/images/templates-ar.png)
 

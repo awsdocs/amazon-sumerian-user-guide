@@ -32,4 +32,4 @@ In the dashboard, you can change the name and description of a pack, and copy or
 
      + **Delete** – Send the asset pack to the **Trash** 
 
-Additional options for asset packs are available in the Sumerian editor\.
+Additional options for asset packs are available in the [Sumerian editor](assets-packs.md)\.

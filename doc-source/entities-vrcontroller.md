@@ -2,7 +2,7 @@
 
 The VR controller component represents a single VR controller in a VR camera rig\. When a user enters VR mode with a controller attached, the VR controller component tracks its location in 3D space\.
 
-See  for more information\.
+See [The Amazon Sumerian VR Camera Rig Component](entities-vrcamerarig.md) for more information\.
 
 **Properties**
 

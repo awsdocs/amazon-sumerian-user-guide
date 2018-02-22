@@ -1,6 +1,6 @@
 # Amazon Sumerian Scene Settings<a name="sumerian-scene"></a>
 
-The editor contains many options for configuring a scene in addition to the options available in the dashboard\. In the inspector panel, you can configure credentials for the AWS SDK for JavaScript, adjust the canvas size and grid, and configure global settings like fog, background image, and post processing effects\.
+The editor contains many options for configuring a scene in addition to the [options available in the dashboard](dashboard-scenes.md)\. In the inspector panel, you can configure credentials for the AWS SDK for JavaScript, adjust the canvas size and grid, and configure global settings like fog, background image, and post processing effects\.
 
 **To configure a scene**
 
@@ -32,7 +32,7 @@ You can save a copy of your scene as a **template** to use it as a starting poin
 
 1. \(drafts\) Choose a project for the template\.
 
-You can copy or move templates between scenes in the dashboard\. You can update a template by creating a template again from the same source scene or a scene created from the template\. When you save a template, you can choose to create a new template or update the existing template\.
+You can [copy or move templates between scenes](dashboard-templates.md) in the dashboard\. You can update a template by creating a template again from the same source scene or a scene created from the template\. When you save a template, you can choose to create a new template or update the existing template\.
 
 Collapse the scene settings section by clicking on the name of your scene\.
 

@@ -10,7 +10,7 @@ The default camera that Sumerian adds to every scene supports mouse controls for
 
 + **Orbit** – Right mouse button, or ALT \+ left mouse button
 
-The Sumerian editor provides keyboard equivalents of most of the canvas menu buttons\. Use the bottom row of keys to switch between preset camera views, and the f key to fill the canvas with a single entity\. The space bar hides the side panels to let the canvas fill the screen\.
+The Sumerian editor provides keyboard equivalents of most of the [canvas menu buttons](editor-canvas.md)\. Use the bottom row of keys to switch between preset camera views, and the f key to fill the canvas with a single entity\. The space bar hides the side panels to let the canvas fill the screen\.
 
 **Camera**
 

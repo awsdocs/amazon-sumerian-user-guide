@@ -23,10 +23,10 @@ A host is a asset provided by Sumerian that has built in animation, speech, and 
 
 All of the host's meshes, materials, animations, and scripts are bundled into a single entity with three configurable components\.
 
-+ **Transform** – the host's location relative to the scene or its parent entity\.
++ **[Transform](entities-transform.md)** – the host's location relative to the scene or its parent entity\.
 
-+ **Host** – animation and behavior settings\.
++ **[Host](entities-host.md)** – animation and behavior settings\.
 
-+ **Speech** – text\-to\-speech with Amazon Polly\.
++ **[Speech](entities-speech.md)** – text\-to\-speech with Amazon Polly\.
 
 Hosts' models and animations are locked and cannot be modified or extended\.

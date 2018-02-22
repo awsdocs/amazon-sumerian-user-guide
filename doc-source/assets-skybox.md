@@ -1,6 +1,6 @@
 # Skybox<a name="assets-skybox"></a>
 
-A skybox is a texture that applies to the background of a scene, to show the sky, space or an enclosing structure\. A skybox can be a single texture that wraps onto a sphere, or six textures that wrap onto a cube\. Add a skybox to your scene in the scene's environment settings\.
+A skybox is a texture that applies to the background of a scene, to show the sky, space or an enclosing structure\. A skybox can be a single texture that wraps onto a sphere, or six textures that wrap onto a cube\. Add a skybox to your scene in the scene's [environment settings](scene-environment.md)\.
 
 **To create a skybox**
 

@@ -1,6 +1,6 @@
 # Parameters and Arguments<a name="scripting-parameters"></a>
 
-Parameters let you create scripts that are customizable by adding fields to the script properties in the editor\. For example, the following script defines a parameter named `Velocity` that takes 3 numbers \(a `vec3` parameter\)\.
+Parameters let you create scripts that are customizable by adding fields to the script properties in the editor\. For example, the following script defines a parameter named `Velocity` that takes 3 numbers \(a [`vec3` parameter](#scripting-parameters-types)\)\.
 
 ```
 var setup = function(args, ctx){
@@ -31,7 +31,7 @@ Parameters are objects with the following required and optional fields\.
 
 + **key** \[string\] – a unique key used to store and retrieve the parameter values in the `args` object\.
 
-+ **type** \[string\] – the parameter type\.
++ **type** \[string\] – the [parameter type](#scripting-parameters-types)\.
 
 + **default** – the default value or values for the parameter\.
 
@@ -77,7 +77,7 @@ The type property must be set to one of a few predefined strings, each correspon
 
 + `vec2`, `vec3`, `vec4` – an array of 2, 3, or 4 numbers\.
 
-+ `texture`, `sound`, `entity`, `camera`, `animation`, `json` – an asset of the specified type\.
++ `texture`, `sound`, `entity`, `camera`, `animation`, `json` – an asset of the specified [type](sumerian-assets.md)\.
 
 All types in action, including a sample script:
 

@@ -14,7 +14,7 @@ You can use the dashboard to create a scene from a template, or move or copy tem
 
 1. Enter a name for your scene and choose **Create**\.
 
-Create templates from your scenes from the scene settings section in the Sumerian editor\. You can then copy your templates to other projects from the **Templates** section of the scene's project page in the dashboard\.
+Create templates from your scenes from the [scene settings section](sumerian-scene.md) in the Sumerian editor\. You can then copy your templates to other projects from the **Templates** section of the scene's project page in the dashboard\.
 
 **To manage a template**
 

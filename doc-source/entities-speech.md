@@ -2,7 +2,7 @@
 
 The speech component assigns text to an entity for playback with Amazon Polly\. You assign text to an entity, and play the audio output from Amazon Polly with a state machine or script\. The scene calls Amazon Polly at runtime to generate the audio\.
 
-To use Amazon Polly during playback, the scene needs AWS credentials from Amazon Cognito Identity\. Create an identity pool for your scene, and configure it under AWS configuration in the scene settings\.
+To use Amazon Polly during playback, the scene needs AWS credentials from Amazon Cognito Identity\. [Create an identity pool](sumerian-permissions.md) for your scene, and configure it under [AWS configuration](scene-aws.md) in the scene settings\.
 
 ![\[Image NOT FOUND\]](http://docs.aws.amazon.com/sumerian/latest/userguide/images/components-speech.png)
 
@@ -18,7 +18,7 @@ To trigger a speech during playback, use a state machine or script component on 
 
 ## State Machine<a name="entities-speech-statemachine"></a>
 
-To play a speech, add a state machine to the entity with the speech component\. Add a state with **AWS SDK ready** and **Start speech** actions\.
+To play a speech, add a [state machine](entities-statemachine.md) to the entity with the speech component\. Add a state with **AWS SDK ready** and **Start speech** actions\.
 
 ![\[Image NOT FOUND\]](http://docs.aws.amazon.com/sumerian/latest/userguide/images/components-speech-state.png)
 

@@ -4,13 +4,13 @@ Sumerian provides scene templates that you can use as a starting point for your 
 
 **Sumerian Scene Templates**
 
-+ **Augmented Reality** – Template for creating augmented reality scenes with a companion sample app\. See  for more information\.
++ **Augmented Reality** – Template for creating augmented reality scenes with a companion sample app\. See [Amazon Sumerian Augmented Reality Tools](assets-artools.md) for more information\.
 
 + **Campfire Particle Flythru** – A wooded exterior scene with rocks, bushes, logs and grass\. This template is used in the [particle system tutorial](https://docs.sumerian.amazonaws.com/tutorials/create/beginner/campfire-particles/)\.
 
 + **Cargo Ship** – An exterior scene with a cargo ship and water\.
 
-+ **Cristine** and **Preston** – Empty scenes with Sumerian hosts\. These templates are used in the [speech tutorial](https://docs.sumerian.amazonaws.com/tutorials/create/beginner/host-speech-component/)\.
++ **Cristine** and **Preston** – Empty scenes with [Sumerian hosts](assets-hosts.md)\. These templates are used in the [speech tutorial](https://docs.sumerian.amazonaws.com/tutorials/create/beginner/host-speech-component/)\.
 
 + **Default Lighting** – An empty scene with a skysphere and three directional lights\. This template is used in the [interface tutorial](https://docs.sumerian.amazonaws.com/tutorials/create/getting-started/sumerian-interface/)\.
 
@@ -22,7 +22,7 @@ Sumerian provides scene templates that you can use as a starting point for your 
 
 + **Warehouse** – An interior scene with warehouse equipment\.
 
-Choose any of these templates in the dashboard to create a draft scene\.
+Choose any of these templates in the [dashboard](sumerian-dashboard.md) to create a draft scene\.
 
 Many of these scenes have models and other assets that are not available in the Sumerian library\. These are either included in the default asset pack, or contained in separate asset packs for each model\. You can export these assets to your project to use them in other scenes\.
 
@@ -36,4 +36,4 @@ Many of these scenes have models and other assets that are not available in the 
 
 1. Highlight a pack and click the asset library icon\(![\[Image NOT FOUND\]](http://docs.aws.amazon.com/sumerian/latest/userguide/images/assets-icons-assetlib.png)\) to export it\.
 
-For more information, see \.
+For more information, see [Amazon Sumerian Asset Packs](assets-packs.md)\.

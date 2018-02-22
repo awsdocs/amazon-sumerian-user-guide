@@ -20,11 +20,11 @@ Scenes can be drafts, or part of a project\.
 
 1. Choose **Create scene**\.
 
-1. \(optional\) Choose a template\.
+1. \(optional\) Choose a [template](dashboard-templates.md)\.
 
 1. Enter a scene name and choose **Create**\.
 
-When you create a scene, it opens in the Sumerian editor for immediate use\. Once you have a scene, you can use the dashboard to make a copy or delete it\. Choose the Sumerian icon in the upper left corner to leave the scene and return to the dashboard\.
+When you create a scene, it opens in the [Sumerian editor](sumerian-editor.md) for immediate use\. Once you have a scene, you can use the dashboard to make a copy or delete it\. Choose the Sumerian icon in the upper left corner to leave the scene and return to the dashboard\.
 
 **To manage a scene**
 
@@ -60,4 +60,4 @@ If you click on the name of the scene or double\-click the thumbnail, the scene 
 
      + **Delete** – Send the scene to the **Trash** 
 
-Additional options for scenes are available in the Sumerian editor scene settings\.
+Additional options for scenes are available in the Sumerian editor [scene settings](sumerian-scene.md)\.

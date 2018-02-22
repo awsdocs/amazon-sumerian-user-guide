@@ -15,7 +15,7 @@ To get started with Amazon Sumerian, assemble a scene from assets in the Sumeria
 
 ## Prerequisites<a name="sumerian-gettingstarted-prereqs"></a>
 
-To use the Sumerian editor, you need permission to use Sumerian APIs on your IAM user\. Additionally, the scene itself needs permission to call Amazon Polly\. You provide this permission by creating a role and an Amazon Cognito identity pool\. Following the instructions at  to set up both\.
+To use the Sumerian editor, you need permission to use Sumerian APIs on your IAM user\. Additionally, the scene itself needs permission to call Amazon Polly\. You provide this permission by creating a role and an Amazon Cognito identity pool\. Following the instructions at [Amazon Sumerian Permissions](sumerian-permissions.md) to set up both\.
 
 You can use the editor in recent versions of Chrome or Firefox\. To view the finished scene in VR, use the latest version of Firefox\. For VR mode, you also need a compatible headset\.
 
@@ -81,7 +81,7 @@ This adds the skybox asset pack to the **Asset** panel\. The pack contains the s
 
 1. Click the play button at the bottom of the screen to see the snow fall\. Adjust the velocity and rate of the snow to your liking\. Changes to these settings are applied immediately during playback mode\.
 
-Later in this tutorial, you configure the scene to use Amazon Polly to render text into audio during playback\. To do this, your scene needs credentials to use the AWS SDK for JavaScript in the web browser\. Give the scene credentials by assigning it the ID of the identity pool that you created in the prerequisites section\.
+Later in this tutorial, you configure the scene to use Amazon Polly to render text into audio during playback\. To do this, your scene needs credentials to use the AWS SDK for JavaScript in the web browser\. Give the scene credentials by assigning it the ID of the identity pool that you created in the [prerequisites section](#sumerian-gettingstarted-prereqs)\.
 
 **To configure AWS SDK for JavaScript credentials**
 
@@ -270,7 +270,7 @@ Add a camera to the other end of the seesaw and make it the default camera\. Dur
 
 Hosts come with a speech component attached\. To use it, you need to add AWS credentials to your scene, add text files to the component, and add a script or state machine component to trigger the speech during playback\. 
 
-For this example, you'll use a script to do something that the state machine can't—choose and play a file at random\. If you haven't already configured AWS credentials for your scene as described in the prerequisites section, do that first\.
+For this example, you'll use a script to do something that the state machine can't—choose and play a file at random\. If you haven't already configured AWS credentials for your scene as described in the [prerequisites section](#sumerian-gettingstarted-prereqs), do that first\.
 
 **To configure speech on the host**
 
@@ -379,4 +379,4 @@ If you created an identity pool for this tutorial and don't plan to use it again
 
 ## Next Steps<a name="sumerian-gettingstarted-nextsteps"></a>
 
-Learn more about Sumerian in the next chapter, \.
+Learn more about Sumerian in the next chapter, [Amazon Sumerian Concepts](sumerian-concepts.md)\.

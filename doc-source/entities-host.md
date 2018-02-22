@@ -1,10 +1,10 @@
 # The Amazon Sumerian Host Component<a name="entities-host"></a>
 
-A host is a asset provided by Sumerian that has built in animation, speech, and behavior for interacting with users\. Add a host to your scene from the asset library\.
+A host is a asset provided by Sumerian that has built in animation, speech, and behavior for interacting with users\. Add a host to your scene from the [asset library](editor-assetlib.md)\.
 
 ![\[Image NOT FOUND\]](http://docs.aws.amazon.com/sumerian/latest/userguide/images/hosts.png)
 
-When you add a host to your scene, it includes a **Host** component for configuring the host's behavior, and a **Speech** component that you can use to configure the host's voice and script\.
+When you add a host to your scene, it includes a **Host** component for configuring the host's behavior, and a [**Speech** component](entities-speech.md) that you can use to configure the host's voice and script\.
 
 ![\[Image NOT FOUND\]](http://docs.aws.amazon.com/sumerian/latest/userguide/images/components-host.png)
 

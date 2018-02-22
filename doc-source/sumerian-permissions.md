@@ -4,7 +4,7 @@ You can use AWS Identity and Access Management \(IAM\) to grant Sumerian permiss
 
 ## User Permissions<a name="permissions-user"></a>
 
-To use the Sumerian editor, add the following policy to your IAM user\.
+To [use the Sumerian editor](sumerian-editor.md), add the following policy to your IAM user\.
 
 ```
 {
@@ -51,8 +51,8 @@ When you create an identity pool, Amazon Cognito prompts you to create two roles
 
 1. Choose **Attach policy** and add policies for the services that your scene uses\.
 
-   + **Speech** – `AmazonPollyReadOnlyAccess` gives the scene permission to use Amazon Polly to render text into audio with the speech component\.
+   + **Speech** – `AmazonPollyReadOnlyAccess` gives the scene permission to use Amazon Polly to render text into audio with the [speech component](entities-speech.md)\.
 
      **AWS SDK for JavaScript** – add policies that grant access to the services that you call with the SDK for JavaScript\.
 
-Assign the identity pool to your scene under **AWS configuration** in scene settings\.
+Assign the identity pool to your scene under **[AWS configuration](scene-aws.md)** in scene settings\.

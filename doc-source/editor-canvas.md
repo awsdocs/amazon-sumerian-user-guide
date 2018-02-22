@@ -2,7 +2,7 @@
 
 In the center of the editor, the WebGL\-rendered viewport is located\. Here you can navigate, inspect and preview the contents of your scene\.
 
-The menu bar at the top of the canvas has options for camera, playback, and rendering\. Many of the buttons also have equivalent keyboard commands\.
+The menu bar at the top of the canvas has options for camera, playback, and rendering\. Many of the buttons also have equivalent [keyboard commands](editor-shortcuts.md)\.
 
 **Canvas Menu**  
 ![\[Image NOT FOUND\]](http://docs.aws.amazon.com/sumerian/latest/userguide/)

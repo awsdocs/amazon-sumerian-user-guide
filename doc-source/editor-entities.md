@@ -1,6 +1,6 @@
 # Using The Entities Panel in the Amazon Sumerian Editor<a name="editor-entities"></a>
 
-The entities panel shows you scene's entities in a hierarchy, starting with the scene itself\. An entity can be a child of the scene or of another entity\. When you choose the scene in the entities panel, the inspector panel shows scene settings\. When you choose an entity, the inspector panel shows the entity's components\.
+The entities panel shows you scene's entities in a hierarchy, starting with the scene itself\. An entity can be a child of the scene or of another entity\. When you choose the scene in the entities panel, the [inspector panel](editor-inspector.md) shows scene settings\. When you choose an entity, the inspector panel shows the entity's components\.
 
 ![\[Image NOT FOUND\]](http://docs.aws.amazon.com/sumerian/latest/userguide/images/editor-entities-scene.png)
 

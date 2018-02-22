@@ -10,7 +10,7 @@ To support re\-use, you add an instance of a script to the script component, not
 
 + **Instance of** – each script instance in the list has a reference to the script it is using\. Choosing the script will take you to the scripts' own panel\.
 
-+ **Parameters** – any parameters defined in the script's `parameters` array appear here\. Adjust the values to customize the behavior of this script instance\.
++ **Parameters** – any parameters defined in the script's [`parameters` array](scripting-parameters.md) appear here\. Adjust the values to customize the behavior of this script instance\.
 
 To structure your parameters, you can store them in JSON file\. Start by defining the parameters in the script itself\. Then add the JSON file and reference it from the script settings\.
 
@@ -29,7 +29,7 @@ var parameters=[{
 
 **To create a script with JSON parameters**
 
-1. Create a blank entity\.
+1. [Create a blank entity](sumerian-entities.md)\.
 
 1. Choose **Add component** and then choose **Script**\.
 

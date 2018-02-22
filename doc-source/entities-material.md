@@ -1,6 +1,6 @@
 # The Amazon Sumerian Material Component<a name="entities-material"></a>
 
-When you add a 3D model to your environment, it has at least two components\. The geometry component defines the shape of the model\. The material component defines its textures and rendering properties\.
+When you add a 3D model to your environment, it has at least two components\. The [geometry](entities-geometry.md) component defines the shape of the model\. The material component defines its textures and rendering properties\.
 
 **Properties**
 

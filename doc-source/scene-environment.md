@@ -18,7 +18,7 @@ Use environment settings to configure your scene's background image, ambient lig
 
      To make the background transparent, set **Opacity** to `0`\. Background settings have no effect if you add a **Skybox**\.
 
-   + **Skybox** – use an image as the background of the scene\. You can drop an existing skybox from the assets panel, or choose the plus icon to create a new skybox\.
+   + **Skybox** – use an image as the background of the scene\. You can drop an existing skybox from the assets panel, or choose the plus icon to [create a new skybox](assets-skybox.md)\.
 
    + **Ambient** – add ambient light to light all objects the scene\. Ambient light does not affect the skybox\.
 

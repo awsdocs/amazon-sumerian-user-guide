@@ -16,7 +16,7 @@ Reference documentation for the Sumerian engine library is available on the [Sum
 
 1. Choose the new script under documents\. Use the pencil icon next to the script name to change its name\.
 
-The script template includes 7 methods and a parameters array\. The methods correspond to a scene's lifecycle events and are called by the engine at the following times\.
+The script template includes 7 methods and a [parameters](scripting-parameters.md) array\. The methods correspond to a scene's lifecycle events and are called by the engine at the following times\.
 
 + `setup` – when scene playback starts\.
 

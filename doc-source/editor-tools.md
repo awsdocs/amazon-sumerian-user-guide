@@ -12,7 +12,7 @@ To use the text editor, choose **Tools**, **Text Editor**, or press the J key\.
 
 The **Documents** panel lists the text assets in your seen\. Click on one to open it in a tab\. To rename an asset, highlight it and click the pencil icon\.
 
-When you open a script, the **External Resources** panel appears\. You can use this panel to import libraries that your script depends on from the Internet\. See  for more information\.
+When you open a script, the **External Resources** panel appears\. You can use this panel to import libraries that your script depends on from the Internet\. See [External Dependencies](scripting-dependencies.md) for more information\.
 
 ## State Machine Editor<a name="editor-tools-statemachine"></a>
 
@@ -30,4 +30,4 @@ Use timelines to move, rotate, or change the scale of entities over time\. You c
 
 ![\[Image NOT FOUND\]](http://docs.aws.amazon.com/sumerian/latest/userguide/images/tools-timeline.png)
 
-For more information, see \.
+For more information, see [The Amazon Sumerian Timeline Component](entities-timeline.md)\.
