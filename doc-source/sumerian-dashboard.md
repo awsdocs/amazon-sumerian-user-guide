@@ -2,7 +2,7 @@
 
 The Dashboard is the first thing you see when you open the Amazon Sumerian app\. This is where you manage your projects, scenes, asset packs, and templates\.
 
-![\[Image NOT FOUND\]](http://docs.aws.amazon.com/sumerian/latest/userguide/)
+![\[Image NOT FOUND\]](http://docs.aws.amazon.com/sumerian/latest/userguide/images/dashboard.png)
 
 Projects collect scenes and the templates and asset packs that you export from them\. You can create draft projects outside of a project, but you must have a project to export templates and assets\.
 

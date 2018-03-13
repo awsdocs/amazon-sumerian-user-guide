@@ -8,7 +8,7 @@ Scenes can be drafts, or part of a project\.
 
 **To create a scene**
 
-1. Open the Sumerian dashboard\.
+1. Open [the Sumerian dashboard](https://console.aws.amazon.com/sumerian/home)\.
 
 1. Choose the location to create the scene\.
 
@@ -28,7 +28,7 @@ When you create a scene, it opens in the [Sumerian editor](sumerian-editor.md) f
 
 **To manage a scene**
 
-1. Open the Sumerian dashboard\.
+1. Open [the Sumerian dashboard](https://console.aws.amazon.com/sumerian/home)\.
 
 1. Locate your scene under **Recent scenes**, **Drafts**, or a project\.
 

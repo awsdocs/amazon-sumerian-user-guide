@@ -31,7 +31,7 @@ Create a project and a scene\. The project can contain multiple scenes, as well 
 
 **To create a project and scene**
 
-1. Open the Sumerian dashboard\.
+1. Open [the Sumerian dashboard](https://console.aws.amazon.com/sumerian/home)\.
 
 1. Choose **Projects**, **New project**\.
 
@@ -369,7 +369,7 @@ You can keep the Sumerian scene and project around for use with other tutorials,
 
 **To delete the project**
 
-1. Open the Sumerian dashboard\.
+1. Open [the Sumerian dashboard](https://console.aws.amazon.com/sumerian/home)\.
 
 1. Choose a project\.
 

@@ -2,8 +2,8 @@
 
 Amazon Sumerian is a set of tools for creating high\-quality virtual reality \(VR\) experiences on the web\. With Sumerian, you can construct an interactive 3D scene without any programming experience, test it in the browser, and publish it as a website that is immediately available to users\.
 
-**Limited Preview**  
-Amazon Sumerian is in limited preview\. Sign up to apply for access: [Amazon Sumerian Preview](https://pages.awscloud.com/amazon-sumerian-preview.html)
+**Public Preview**  
+Amazon Sumerian is in public preview\. Send feedback to sumerian\-beta@amazon\.com to help us improve the editor prior to general availability\.
 
 Use the Sumerian library of assets or bring your own\. When you import 3D models, Sumerian converts and optimizes them automatically\. Sumerian also has a library of primitive shapes, 3D models, hosts, textures, and scripts\.
 

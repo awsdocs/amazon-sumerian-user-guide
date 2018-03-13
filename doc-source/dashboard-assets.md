@@ -6,7 +6,7 @@ In the dashboard, you can change the name and description of a pack, and copy or
 
 **To manage an asset pack**
 
-1. Open the Sumerian dashboard\.
+1. Open [the Sumerian dashboard](https://console.aws.amazon.com/sumerian/home)\.
 
 1. Choose a project\.
 

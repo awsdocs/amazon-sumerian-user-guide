@@ -1,6 +1,6 @@
 # Media<a name="assets-media"></a>
 
-You can import media files to use as textures or audio objects\. Files up to 10MB are supported in the following formats\.
+You can import media files into Sumerian to use as textures or audio objects\. Files up to 10 MB are supported in the following formats\.
 
 **Images**
 

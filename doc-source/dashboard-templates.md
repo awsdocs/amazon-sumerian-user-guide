@@ -6,7 +6,7 @@ You can use the dashboard to create a scene from a template, or move or copy tem
 
 **To create a scene from a template**
 
-1. Open the Sumerian dashboard\.
+1. Open [the Sumerian dashboard](https://console.aws.amazon.com/sumerian/home)\.
 
 1. Choose **Create new scene**\.
 
@@ -18,7 +18,7 @@ Create templates from your scenes from the [scene settings section](sumerian-sce
 
 **To manage a template**
 
-1. Open the Sumerian dashboard\.
+1. Open [the Sumerian dashboard](https://console.aws.amazon.com/sumerian/home)\.
 
 1. Choose a project\.
 

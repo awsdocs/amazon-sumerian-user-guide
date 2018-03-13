@@ -64,7 +64,7 @@ Amazon's trademarks and trade dress may not be used in
    + [The Amazon Sumerian State Machine Component](entities-statemachine.md)
    + [The Amazon Sumerian Script Component](entities-script.md)
    + [The Amazon Sumerian Timeline Component](entities-timeline.md)
-+ [Assets](sumerian-assets.md)
++ [Amazon Sumerian Assets](sumerian-assets.md)
    + [Amazon Sumerian Asset Packs](assets-packs.md)
    + [Amazon Sumerian Scene Templates](assets-templates.md)
    + [Amazon Sumerian Virtual Reality Tools](assets-vrtools.md)

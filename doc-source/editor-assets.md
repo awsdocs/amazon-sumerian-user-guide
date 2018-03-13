@@ -6,4 +6,4 @@ The assets panel shows all assets belonging to the scene\. Assets are portable v
 
 To create an asset, drop a file from your computer, or an entity from the entities panel, onto the assets panel\. Files may be split into multiple assets depending on the type of file\.
 
-For more information, see [Assets](sumerian-assets.md)\.
+For more information, see [Amazon Sumerian Assets](sumerian-assets.md)\.

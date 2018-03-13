@@ -82,7 +82,7 @@ The particle system component simulates fluid entities such as liquids, clouds a
 
   + **Texture tiles** – the number of tiles in the sprite sheet, in X and Y directions\.
 
-  + **Cycles** – the number of exture animation cycles to finish over the lifetime\.
+  + **Cycles** – the number of texture animation cycles to finish over the lifetime\.
 
   + **Frame over lifetime** – a curve specifying when to show which frame in the animation\. `0` is the first frame and `1` is the last\. A linear curve starting at 0 and ending at 1 traverses all frames in the animation\.
 

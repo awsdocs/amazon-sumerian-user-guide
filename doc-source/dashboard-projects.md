@@ -4,7 +4,7 @@ Projects collect the scenes that you are working on\.
 
 **To create a project**
 
-1. Open the Sumerian dashboard\.
+1. Open [the Sumerian dashboard](https://console.aws.amazon.com/sumerian/home)\.
 
 1. Choose **Projects**\.
 
@@ -16,7 +16,7 @@ Once you have a project, you can use the dashboard to make a copy or delete it\.
 
 **To manage a project**
 
-1. Open the Sumerian dashboard\.
+1. Open [the Sumerian dashboard](https://console.aws.amazon.com/sumerian/home)\.
 
 1. Choose a project\.
 

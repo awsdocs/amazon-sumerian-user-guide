@@ -1,6 +1,6 @@
 # Amazon Sumerian Virtual Reality Tools<a name="assets-vrtools"></a>
 
-Sumerian provides a pack of VR\-related assets to make it easy to enable VR in your scene\. The asset pack includes a VR camera that lets the user enter VR mode, and VR controllers for interacting with the environment\.
+Sumerian provides a pack of virtual reality \(VR\)\-related assets to make it easy to enable VR in your scene\. The asset pack includes a VR camera that lets the user enter VR mode, and VR controllers for interacting with the environment\.
 
 **Supported Hardware**
 
@@ -14,7 +14,7 @@ Sumerian provides a pack of VR\-related assets to make it easy to enable VR in y
 
 1. Choose **Import assets**\.
 
-1. Choose **CoreVR** and then choose **Add**\.
+1. Choose **CoreVR**, and then choose **Add**\.
 
 1. When the asset pack finishes loading, drag the **VRCameraRig** entity onto the canvas to add it to your scene\.
 
@@ -22,7 +22,7 @@ Sumerian provides a pack of VR\-related assets to make it easy to enable VR in y
 
 1. Choose the **VRCameraRig** component\.
 
-1. Check the **Current VR camera rig** option to enable the rig\.
+1. Choose the **Current VR camera rig** option to enable the rig\.
 
 When a user enters VR mode with a headset and controllers attached, the [HMD camera](entities-hmdcamera.md) tracks the headset, and the [VR controllers](entities-vrcontroller.md) track the controllers in 3D space\. The [VR camera rig](entities-vrcamerarig.md) manages the other entities and enables the VR mode button in the scene\.
 

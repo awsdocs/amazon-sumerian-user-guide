@@ -10,7 +10,7 @@ A host is a asset provided by Sumerian that has built in animation, speech, and 
 
 1. Choose **Import assets**\.
 
-1. Choose a host\.
+1. Choose one of the following hosts:
 
    + **Cristine**
 
@@ -21,12 +21,12 @@ A host is a asset provided by Sumerian that has built in animation, speech, and 
 1. Drag the host entity from the assets panel onto the canvas\.  
 ![\[Image NOT FOUND\]](http://docs.aws.amazon.com/sumerian/latest/userguide/images/assets-host.png)
 
-All of the host's meshes, materials, animations, and scripts are bundled into a single entity with three configurable components\.
+All of a host's meshes, materials, animations, and scripts are bundled into a single entity with three configurable components:
 
-+ **[Transform](entities-transform.md)** – the host's location relative to the scene or its parent entity\.
++ **[Transform](entities-transform.md)** – The host's location relative to the scene or its parent entity\.
 
-+ **[Host](entities-host.md)** – animation and behavior settings\.
++ **[Host](entities-host.md)** – Animation and behavior settings\.
 
-+ **[Speech](entities-speech.md)** – text\-to\-speech with Amazon Polly\.
++ **[Speech](entities-speech.md)** – Text\-to\-speech capability with Amazon Polly\.
 
-Hosts' models and animations are locked and cannot be modified or extended\.
+Models and animations for hosts are locked\. You cannot modify or extend them\.

@@ -18,7 +18,7 @@ A behavior always has one default state which is activated when the scene loads\
 
 An action is some logic gets executed while its state is active\. Some actions execute once and are done, while others execute once per frame\. There are also actions that listen for events, and execute logic when the event happens\.
 
-Many of the actions have events, and they can trigger transitions to other states\. For exaple, when the **WaitAction** executes, it sets a timer for a number of seconds\. When the timer is up, it can transition to another state\.
+Many of the actions have events, and they can trigger transitions to other states\. For example, when the **WaitAction** executes, it sets a timer for a number of seconds\. When the timer is up, it can transition to another state\.
 
 **Actions**
 

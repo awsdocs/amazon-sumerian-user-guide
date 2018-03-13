@@ -17,11 +17,13 @@ If you don't have an identity pool, follow the instructions under [Amazon Sumeri
 1. Enter an Amazon Cognito identity pool ID\.  
 ![\[Image NOT FOUND\]](http://docs.aws.amazon.com/sumerian/latest/userguide/images/scene-sections-aws.png)
 
-To use the credentials, create a script that listens for `aws.sdkReady` before initializing an SDK for JavaScript client\. The following example lists the contents of an Amazon S3 bucket named `mybucket` in the browser console\.
+To use the credentials, create a script that listens for `aws.sdkReady` before initializing an SDK for JavaScript client\. The following example lists the contents of an Amazon S3 bucket named `mybucket` in the browser console\. To test its functionality, [create a script](sumerian-scripting.md), attach it to an entity, and play the scene\.
 
-**Example S3listobjects**  
+**Example S3listobjects script**  
 
 ```
+'use strict';
+
 var setup = function(args, ctx) {
     sumerian.SystemBus.addListener('aws.sdkReady',
         () => {

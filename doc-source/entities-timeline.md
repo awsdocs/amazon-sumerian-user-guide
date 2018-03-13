@@ -16,7 +16,7 @@ To create a timeline, choose **Create entity**, **Timeline**\. You can also add 
 
 To open the timeline editor, choose **Toggle timeline** in the timeline component, or choose **Timeline** from the tools menu\.
 
-To add entities to the timline, drag them from the entities panel onto the timeline editor\. Each *channel* in the editor controls one property of the transform, such as the X translation, or the Z scale\. Click on the clock icon next to a property to enable the channel and add the first keyframe\.
+To add entities to the timeline, drag them from the entities panel onto the timeline editor\. Each *channel* in the editor controls one property of the transform, such as the X translation, or the Z scale\. Click on the clock icon next to a property to enable the channel and add the first keyframe\.
 
 Add more keyframes to a channel by choosing a time and changing the property's value\. During playback, the entity will animate between the transform values at each keyframe\. By default, changing a property's value automatically creates a keyframe\. You can disable this by clicking on the key icon next to the **Drop entity here** field\.
 

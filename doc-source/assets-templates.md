@@ -1,12 +1,12 @@
 # Amazon Sumerian Scene Templates<a name="assets-templates"></a>
 
-Sumerian provides scene templates that you can use as a starting point for your scene\. Templates contain models and other assets that may not be available in other locations\. You can export assets from templates to save them to your project for use wtih other scenes\.
+Sumerian provides scene templates that you can use as a starting point for your scene\. Templates contain models and other assets that might not be available in other locations\. You can export assets from templates to save them to your project for use with other scenes\.
 
 **Sumerian Scene Templates**
 
-+ **Augmented Reality** – Template for creating augmented reality scenes with a companion sample app\. See [Amazon Sumerian Augmented Reality Tools](assets-artools.md) for more information\.
++ **Augmented Reality** – Template for creating augmented reality \(AR\) scenes with a companion sample app\. See [Amazon Sumerian Augmented Reality Tools](assets-artools.md) for more information\.
 
-+ **Campfire Particle Flythru** – A wooded exterior scene with rocks, bushes, logs and grass\. This template is used in the [particle system tutorial](https://docs.sumerian.amazonaws.com/tutorials/create/beginner/campfire-particles/)\.
++ **Campfire Particle Flythru** – A wooded exterior scene with rocks, bushes, logs, and grass\. This template is used in the [particle system tutorial](https://docs.sumerian.amazonaws.com/tutorials/create/beginner/campfire-particles/)\.
 
 + **Cargo Ship** – An exterior scene with a cargo ship and water\.
 
@@ -34,6 +34,6 @@ Many of these scenes have models and other assets that are not available in the 
 
 1. If the assets are in the default pack, create a new pack and move them into it\.
 
-1. Highlight a pack and click the asset library icon\(![\[Image NOT FOUND\]](http://docs.aws.amazon.com/sumerian/latest/userguide/images/assets-icons-assetlib.png)\) to export it\.
+1. Highlight a pack and click the asset library icon \(![\[Image NOT FOUND\]](http://docs.aws.amazon.com/sumerian/latest/userguide/images/assets-icons-assetlib.png)\) to export it\.
 
 For more information, see [Amazon Sumerian Asset Packs](assets-packs.md)\.

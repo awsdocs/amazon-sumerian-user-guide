@@ -51,8 +51,8 @@ When you create an identity pool, Amazon Cognito prompts you to create two roles
 
 1. Choose **Attach policy** and add policies for the services that your scene uses\.
 
-   + **Speech** – `AmazonPollyReadOnlyAccess` gives the scene permission to use Amazon Polly to render text into audio with the [speech component](entities-speech.md)\.
+   + **Speech component** – `AmazonPollyReadOnlyAccess` gives the scene permission to use Amazon Polly to render text into audio with the [speech component](entities-speech.md)\.
 
-     **AWS SDK for JavaScript** – add policies that grant access to the services that you call with the SDK for JavaScript\.
+   + **AWS SDK for JavaScript** – add policies that grant access to the services that you call with the SDK for JavaScript\. For example, `AmazonS3ReadOnlyAccess`\.
 
 Assign the identity pool to your scene under **[AWS configuration](scene-aws.md)** in scene settings\.
