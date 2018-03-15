@@ -39,7 +39,7 @@ Create a project and a scene\. The project can contain multiple scenes, as well 
 
 1. Choose **Create new scene**\.
 
-1. Enter **seesaw** for the project name and then choose **Create**\.
+1. Enter **seesaw** for the new scene name and then choose **Create**\.
 
 ## Configure the Scene<a name="sumerian-gettingstarted-configure"></a>
 
