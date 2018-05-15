@@ -12,24 +12,16 @@ Use environment settings to configure your scene's background image, ambient lig
 1. Expand the **Environment** section in the inspector panel\.  
 ![\[Image NOT FOUND\]](http://docs.aws.amazon.com/sumerian/latest/userguide/images/scene-sections-environment.png)
 
-1. Configure the following settings\.
+1. Configure the following settings:
+   + **Background** – Set the background color of the scene, and its opacity\.
 
-   + **Background** – set the background color of the scene, and its opacity\.
-
-     To make the background transparent, set **Opacity** to `0`\. Background settings have no effect if you add a **Skybox**\.
-
-   + **Skybox** – use an image as the background of the scene\. You can drop an existing skybox from the assets panel, or choose the plus icon to [create a new skybox](assets-skybox.md)\.
-
-   + **Ambient** – add ambient light to light all objects the scene\. Ambient light does not affect the skybox\.
-
-   + **Fog** – add fog to the scene\. Fog starts occluding objects in the scene at **Fog near** units from the camera, and strengthens until **Fog far** units, where it becomes completely opaque\.
-
-   + **Particles** – add animated snow\-like particles to the background of the scene\.
+     To make the background transparent, set **Opacity** to `0`\. If you add a skybox, background settings have no effect\.
+   + **Skybox** – Use an image as the background of the scene\. You can drop an existing skybox from the assets panel, or choose the plus icon to [create a new skybox](assets-skybox.md)\.
+   + **Ambient** – Add ambient light to light all objects in the scene\. Ambient light doesn't affect the skybox\.
+   + **Fog** – Add fog to the scene\. Fog starts occluding objects in the scene at **Fog near** units from the camera, and strengthens until **Fog far** units, where the fog becomes completely opaque\.
+   + **Particles** – Add animated snow\-like particles to the background of the scene\.
 
 **Properties**
-
-     + **Velocity** – the speed of the falling particles\.
-
-     + **Rate** – the number of particles that appear per second\.
-
-     + **Height** – the height at which the particles will appear, relative to the camera height\.
+     + **Velocity** – The speed of the falling particles\.
+     + **Rate** – The number of particles that appear per second\.
+     + **Height** – The height at which the particles will appear, relative to the camera height\.

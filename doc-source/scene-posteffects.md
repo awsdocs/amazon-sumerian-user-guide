@@ -1,6 +1,6 @@
-# Configuring Post Processing Effects for Your Amazon Sumerian Scene<a name="scene-posteffects"></a>
+# Configuring Post\-Processing Effects for Your Amazon Sumerian Scene<a name="scene-posteffects"></a>
 
-In the post effects panel it is possible to create a stack of effects, affecting the final render composition\. Post effect layers applied as render passes by the Sumerian engine\.
+In the post effects section of the inspector panel, you can add rendering effects like antialiasing and motion blur\. Post effects are not compatible with VR mode\.
 
 **To add post effects**
 
@@ -14,140 +14,75 @@ In the post effects panel it is possible to create a stack of effects, affecting
 
 1. Choose **Add effects**\.
 
-1. Choose one or more effects and then choose **Add**\.
+1. Choose one or more effects, and then choose **Add**\.
 
 1. Adjust the settings for each effect in the inspector panel\.
 
 1. See how post effects affect rendering by clicking the post effects icon ![\[Image NOT FOUND\]](http://docs.aws.amazon.com/sumerian/latest/userguide/images/canvas-icons-posteffects.png) in the canvas toolbar to toggle them on and off\.
 
-**Post effect properties**
-
-+ **Antialias** – add FXAA based antialiasing to smooth out jagged edges\.
-
-  + **Span** – the area of the smoothing effect\.
-
-+ **Bloom** – intensify and create glow out of the high valued colors in the input\.
-
-  + **Opacity** – the amount of bloom applied\.
-
-  + **Size** – the size of the glow area\.
-
-  + **Gain** – the amount of brightness added\.
-
-  + **Intensity** – contrast\.
-
-+ **Bleach** – alter input color by its luminance\.
-
-  + **Opacity** – the blending multiplier for the effect\.
-
-+ **Blur** – blur the entire scene to make it appear out of focus\.
-
-  + **Amount** – the amount of blending\.
-
-  + **Size** – the size of the blur area\.
-
-+ **Contrast** – adjust the brightness, contrast and saturation\.
-
-  + **Brightness** – remove or add brightness\.
-
-  + **Contrast** – adjust the contrast\.
-
-  + **Saturation** – adjust the color saturation\.
-
-+ **Dot** – add a black and white lattice effect\.
-
-  + **Angle** – the angle of the lattice\.
-
-  + **Scale** – the thickness of the lattice\.
-
-  + **SizeX** – skew the lattice on the X axis\.
-
-  + **SizeY** – skew the lattice on the Y axis\.
-
-+ **Edge detect** – add a *difference of Gaussians*\-based edge detection\.
-
-  + **Gauss Sigma** – the base of the two Gaussian kernels\.
-
-  + **Threshold** – the edge detection tolerance value\.
-
-  + **Background %** – the amount of blending between the background and edge colors\.
-
-  + **Edge Color** – the edge color\.
-
-  + **Background Color** – the background color\.
-
-+ **Film grain** – add noise and resolution lines\.
-
-  + **Noise** – the amount of noise\.
-
-  + **Line Intensity** – the sharpness of the lines\.
-
-  + **Line Count** – the number of lines\.
-
-+ **Hatch** – render the scene in black and white, with a lattice effect over black areas\.
-
-  + **Width** – the width of the lattice lines\.
-
-  + **Spread** – the distance between the lattice lines\.
-
-+ **HSB** \(hue, saturation, and brightness\) – adjust colors of the scene\.
-
-  + **Hue** – adjust the hue\.
-
-  + **Saturation** – adjust the color saturation\.
-
-  + **Brightness** – adjust the image brightness\.
-
-+ **Levels** – apply gamma correction to the image\.
-
-  + **Gamma** – adjust the gamma level\.
-
-  + **Min input** and **Max input** – the gamma input range\.
-
-  + **Min output** and **Max output** – the gamma output range\.
-
-+ **Motion Blur** – apply a blur effect to objects that moved since the previous rendered frame\. If the camera moves, the entire image blurs\.
-
-  + **Amount** – the amount of blending\.
-
-  + **Scale** – overlay the previous frame on top of the current frame at a different scale to create a zooming or flying effect\.
-
-+ **Noise** – add signal noise to the image\.
-
-  + **Noise** – the amount of noise\.
-
-+ **Overlay** – overlay a texture on the image\.
-
-  + **Texture** – the texture asset\.
-
-  + **Blend mode** – the method of blending the overlay and background\.
-
-  + **Amount** – the amount of blending\.
-
-+ **Radial** – add a radial blur to the image\.
-
-  + **Offset** – the blur offset\.
-
-  + **Multiplier** – the blur multiplier\.
-
-+ **RGB shift** – split the image into red, green, and blue layers with an offset between layers\.
-
-  + **Amount** – the distance between the layers\.
-
-  + **Angle** – the angle in radians between the layers\.
-
-+ **Sepia** – add a sepia color filter\.
-
-  + **Amount** – the intensity of the effect\.
-
-+ **Tint** – apply a color filter to the image\.
-
-  + **Color** – the tint color\.
-
-  + **Amount** – the intensity of the effect\.
-
-+ **Vignette** – add a dark gradient around the edges of the image\.
-
-  + **Offset** – the size of the gradient\.
-
-  + **Darkness** – the strength of the gradient\.
+**Post effects properties**
++ **Antialias** – Add FXAA\-based antialiasing to smooth out jagged edges\.
+  + **Span** – The area of the smoothing effect\.
++ **Bloom** – Make bright background colors bleed over the edges of foreground objects\.
+  + **Opacity** – The amount of bloom applied\.
+  + **Size** – The size of the glow area\.
+  + **Gain** – The amount of brightness added\.
+  + **Intensity** – The amount of contrast\.
++ **Bleach** – Alter input color by its luminance\.
+  + **Opacity** – The blending multiplier for the effect\.
++ **Blur** – Blur the entire scene to make it appear out of focus\.
+  + **Amount** – The amount of blending that causes the blur\.
+  + **Size** –The size of the blur area\.
++ **Contrast** – Adjust the brightness, contrast, and saturation\.
+  + **Brightness** – Remove or add brightness\.
+  + **Contrast** – Adjust the contrast\.
+  + **Saturation** – Adjust the color saturation\.
++ **Dot** – Add a black\-and\-white lattice effect\.
+  + **Angle** – The angle of the lattice\.
+  + **Scale** – The thickness of the lattice\.
+  + **SizeX** – Skew the lattice on the X axis\.
+  + **SizeY** – Skew the lattice on the Y axis\.
++ **Edge detect** – Add a *difference of Gaussians*\-based edge detection\.
+  + **Gauss Sigma** – The base of the two Gaussian kernels\.
+  + **Threshold** – The edge detection tolerance value\.
+  + **Background %** – The amount of blending between the background and edge colors\.
+  + **Edge Color** – The edge color\.
+  + **Background Color** – The background color\.
++ **Film grain** – Add noise and resolution lines\.
+  + **Noise** – The amount of noise\.
+  + **Line Intensity** – The sharpness of the lines\.
+  + **Line Count** – The number of lines\.
++ **Hatch** – Render the scene in black and white, with a lattice effect over black areas\.
+  + **Width** – The width of the lattice lines\.
+  + **Spread** – The distance between the lattice lines\.
++ **HSB** \(hue, saturation, and brightness\) – Adjust colors of the scene\.
+  + **Hue** – Adjust the hue\.
+  + **Saturation** – Adjust the color saturation\.
+  + **Brightness** – Adjust the image brightness\.
++ **Levels** – Apply gamma correction to the image\.
+  + **Gamma** – Adjust the gamma level\.
+  + **Min input** and **Max input** – The gamma input range\.
+  + **Min output** and **Max output** – The gamma output range\.
++ **Motion Blur** – Apply a blur effect to objects that moved since the previous rendered frame\. If the camera moves, the entire image blurs\.
+  + **Amount** – The amount of blending\.
+  + **Scale** – Overlay the previous frame on top of the current frame at a different scale to create a zooming or flying effect\.
++ **Noise** – Add signal noise to the image\.
+  + **Noise** – The amount of signal noise\.
++ **Overlay** – Overlay a texture on the image\.
+  + **Texture** – The texture asset\.
+  + **Blend mode** – The method of blending the overlay and background\.
+  + **Amount** – The amount of blending\.
++ **Radial** – Add a radial blur to the image\.
+  + **Offset** – The blur offset\.
+  + **Multiplier** – The blur multiplier\.
++ **RGB shift** – Split the image into red, green, and blue layers with an offset between layers\.
+  + **Amount** – The distance between the layers\.
+  + **Angle** – The angle in radians between the layers\.
++ **Sepia** – Add a sepia color filter\.
+  + **Amount** – The intensity of the effect\.
++ **Tint** – Apply a color filter to the image\.
+  + **Color** – The tint color\.
+  + **Amount** – The intensity of the effect\.
++ **Vignette** – Add a dark gradient around the edges of the image\.
+  + **Offset** – The size of the gradient\.
+  + **Darkness** – The strength of the gradient\.

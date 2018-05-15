@@ -1,6 +1,6 @@
 # Configuring AWS Credentials for Your Amazon Sumerian Scene<a name="scene-aws"></a>
 
-The **AWS configuration** section lets you configure credentials for use with the AWS SDK for JavaScript\. You can set a Amazon Cognito identity pool ID, which Sumerian will use to retrieve credentials when the scene is loaded\. The identity pool must have an unauthenticated role with permission to use the AWS APIs that your scripts access\.
+The **AWS configuration** section lets you configure credentials to use with the AWS SDK for JavaScript\. You can set a Amazon Cognito identity pool ID, which Sumerian uses to retrieve credentials when the scene is loaded\. The identity pool must have an unauthenticated role with permission to use the AWS APIs that your scripts access\.
 
 **Note**  
 If you don't have an identity pool, follow the instructions under [Amazon Sumerian Permissions](sumerian-permissions.md) to create one\.

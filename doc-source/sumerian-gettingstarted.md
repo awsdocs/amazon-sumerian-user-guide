@@ -2,7 +2,7 @@
 
 To get started with Amazon Sumerian, assemble a scene from assets in the Sumerian library\. In less than an hour, you can create a scene with effects, animation, and support for virtual reality \(VR\) headsets\. This tutorial also shows basic use of scripting with the speech component, which uses Amazon Polly to render text into audio\.
 
-
+**Topics**
 + [Prerequisites](#sumerian-gettingstarted-prereqs)
 + [Create a Project and Scene](#sumerian-gettingstarted-create)
 + [Configure the Scene](#sumerian-gettingstarted-configure)
@@ -20,9 +20,7 @@ To use the Sumerian editor, you need permission to use Sumerian APIs on your IAM
 You can use the editor in recent versions of Chrome or Firefox\. To view the finished scene in VR, use the latest version of Firefox\. For VR mode, you also need a compatible headset\.
 
 **Supported Hardware**
-
 + Oculus Rift
-
 + HTC Vive
 
 ## Create a Project and Scene<a name="sumerian-gettingstarted-create"></a>
@@ -39,7 +37,7 @@ Create a project and a scene\. The project can contain multiple scenes, as well 
 
 1. Choose **Create new scene**\.
 
-1. Enter **seesaw** for the new scene name and then choose **Create**\.
+1. Enter **seesaw** for the scene name and then choose **Create**\.
 
 ## Configure the Scene<a name="sumerian-gettingstarted-configure"></a>
 
@@ -64,19 +62,14 @@ This adds the skybox asset pack to the **Asset** panel\. The pack contains the s
 1. Click and drag the **Blue skysphere** skybox from the assets panel to the **Drop skybox** field in the inspector panel to attach it to the scene\.
 
 1. Choose **Fog** to enable it and configure its parameters:
-
    + **Fog near** – **5**
-
    + **Fog far** – **20**
 
    This starts fading in fog at 5 units away from the camera, and completely obscures anything 20 units away or farther\.
 
 1. Choose **Snow** to enable it, and then configure its parameters:
-
    + **Velocity** – **20**
-
    + **Rate** – **30**
-
    + **Height** – **100**
 
 1. Click the play button at the bottom of the screen to see the snow fall\. Adjust the velocity and rate of the snow to your liking\. Changes to these settings are applied immediately during playback mode\.
@@ -108,11 +101,8 @@ Add some ground to the scene\.
 1. The quad's components appear in the inspector panel on the right side of the canvas\. Expand the top section and change the name of the entity to **ground**\. The change is reflected in the section name and entities panel immediately\.
 
 1. Expand the **Transform** section, and then enter the following values:
-
    + **X rotation** – **\-90**
-
    + **X, Y, and Z scale** – **100**
-
    + **Static** – enabled  
 ![\[The transform section of the inspector panel.\]](http://docs.aws.amazon.com/sumerian/latest/userguide/images/gettingstarted-groundtransform.png)
 
@@ -127,13 +117,9 @@ The space near the camera right now is pretty dark\. Add a directional light to 
 1. Under **Lights**, choose **Directional**\.
 
 1. Expand the **Transform** section, and then enter the following values:
-
    + **Y translation** – **10**
-
    + **X rotation** – **\-30**
-
    + **Y rotation** – **\-60**
-
    + **Static** – enabled
 
 1. Expand the **Light** section and enable **Shadows**\.
@@ -155,17 +141,11 @@ Add a blank entity to represent the seesaw, and shapes for the fulcrum and plank
 1. Add a blank entity\. Rename it to **plank**\. This blank entity will serve as the parent to the plank model, as well as a camera and host entity that will move with the plank\.
 
 1. Add a box entity\. Rename it to **plank model**\. Apply the following transform and set the diffuse color to blue:
-
    + **Y translation** – **\.5**
-
    + **Z rotation** – **12**
-
    + **X scale** – **4\.5**
-
    + **Y scale** – **0\.1**
-
    + **Z scale** – **0\.6**
-
    + **Static** – disabled
 
 Next, import a host from the Sumerian library\. Hosts are Sumerian\-provided character models with built\-in animation and support for speech\.
@@ -174,23 +154,17 @@ Next, import a host from the Sumerian library\. Hosts are Sumerian\-provided cha
 
 1. Choose **Import assets**\.
 
-1. Choose **Cristine** or **Preston**\. Then choose **Add**\.  
+1. Choose **Cristine**, **Luke**, or **Preston**\. Then choose **Add**\.  
 ![\[Sumerian hosts.\]](http://docs.aws.amazon.com/sumerian/latest/userguide/images/hosts.png)
 
 1. When the asset pack finishes loading, drag the host entity from the **Asset** panel to the canvas\.
 
 1. Apply the following transform:
-
    + **X translation** – **1\.95**
-
    + **Y translation** – **0\.97**
-
    + **Z rotation** – **12**
-
    + **Y rotation** – **\-90**
-
    + **X, Y, and Z scale** – **1\.3**
-
    + **Static** – disabled
 
 Finally, use the **Entities** panel to organize the entities that you created into a hierarchy\. Drag an entity onto another one to make them parent and child\.
@@ -214,21 +188,14 @@ A state machine lets you add behavior visually by choosing actions that are trig
 1. The **State machine** panel appears with a single state\. Name the state **up** , and then choose **Add action**\.
 
 1. Under **Animate**, choose **Tween rotate**\. Apply the following properties:
-
    + **Z rotation** – **\-24**
-
    + **Relative** – disabled
-
    + **Time** – **1000**
-
    + **Easing type** – **Linear**
-
    + **Direction** – **In**
 
 1. Choose **Add action** again, and then add a **Wait** action\. Apply the following properties:
-
    + **Time** – **2000**
-
    + **Random** – **0**
 
 1. In the **State machine** panel, choose **Duplicate state** to make a copy of **up**\. Double\-click the new state to open it in the inspector panel\.
@@ -245,19 +212,14 @@ Add a camera to the other end of the seesaw and make it the default camera\. Dur
 **To add a camera with mouse look controls**
 
 1. Choose **Create entity**, and then add a fixed camera to the scene\. Rename it to **user**, and then apply the following transform:
-
    + **X translation** – **\-2\.5**
-
    + **Y translation** – **1\.2**
-
    + **Y rotation** – **\-90**
 
 1. In the entities panel, drag the camera onto the **plank** entity to make it move with the seesaw\.
 
 1. In the camera's **Camera** component, apply the following properties:
-
    + **Main camera** – enabled
-
    + **FOV** – **35**
 
 1. Choose **Add component**, and then add a script component to the camera\.

@@ -14,7 +14,7 @@ See [Scenes](dashboard-scenes.md) for more information\.
 
 All objects and behaviors are *components* that combine to create *entities*\. For example, when you import a 3D model and add it to a scene, the editor creates an entity that has a geometry component, a material component, a transform component, and an animation component\. You can then use the editor to add a rigid body, colliders, and other components to the entity\.
 
-See [Entities](sumerian-entities.md) for more information\.
+See [Amazon Sumerian Entities](sumerian-entities.md) for more information\.
 
 ## Assets<a name="concepts-assets"></a>
 
@@ -30,7 +30,7 @@ A host is a asset provided by Sumerian that has built in animation, speech, and 
 
 Hosts use Amazon Polly to speak to users from a text source\. You can use hosts to engage users and guide them through a VR experience\.
 
-See [The Amazon Sumerian Host Component](entities-host.md) for more information\.
+See [Amazon Sumerian Host Component](entities-host.md) for more information\.
 
 ## Projects<a name="concepts-projects"></a>
 

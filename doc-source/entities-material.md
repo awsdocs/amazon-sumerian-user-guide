@@ -1,79 +1,46 @@
-# The Amazon Sumerian Material Component<a name="entities-material"></a>
+# Amazon Sumerian Material Component<a name="entities-material"></a>
 
-When you add a 3D model to your environment, it has at least two components\. The [geometry](entities-geometry.md) component defines the shape of the model\. The material component defines its textures and rendering properties\.
+When you add a 3D model to your environment, it has at least two components\. The [geometry component](entities-geometry.md) defines the shape of the model\. The material component defines its textures and rendering properties\.
 
 **Properties**
-
-+ **Diffuse color** – the base color of the surface\.
-
-  + **Color** – the base diffuse color\.
-
-  + **Texture** – set the diffuse color from a texture\.
-
-+ **Normal** – normal maps are a type of Bump Map\. They are a special kind of texture that allow you to add surface detail such as bumps, grooves, and scratches to a model which catch the light as if they are represented by real geometry\.
++ **Diffuse color** – The base color of the surface\.
+  + **Color** – The base diffuse color\.
+  + **Texture** – The diffuse color from a texture\.
++ **Normal** – A type of bump map\. Normal maps are a special kind of texture that you use to add surface detail such as bumps, grooves, and scratches to a model\. These details catch the light as if they are represented by real geometry\.
 
   You set the normal map via the **Texture** input, and you can alter its magnitude by setting the **Strength** value\.
++ **Specular** – Specular effects, which are essentially the direct reflections of light sources in your scene\. These typically show up as bright highlights or shininess on the surface of objects \(although specular highlights can be subtle or diffuse, too\)\.
 
-+ **Specular** – specular effects are essentially the direct reflections of light sources in your scene which typically show up as bright highlights or shines on the surface of objects \(although specular highlights can be subtle or diffuse too\)\.
-
-  You can set the base specularity **Color**, use a **Texture** and set the **shininess** value\.
-
-+ **Emissive** – this is the self\-illumination color an object has\. You can set the emissive color using the **Color** input and/or via a **Texture**\.
-
-+ **Ambient** – ambient color is the color of an object where it is in shadow\. This color is what the object reflects when illuminated by ambient light rather than direct light\.
-
-  + **Color** sets the base ambient color\.
-
-  + **Texture** this ambient map identifies areas on a mesh that are exposed or hidden from ambient lighting\.
-
-+ **Opacity** – the opacity is used when using the *Transparent Blending* mode\. The **Strength** allows you to input a value between 0 and 1 where 0\.0 represents completely transparent and 1\.0 represents fully opaque\.
-
-  + **Threshold** is used to indicate when a surface is completely transparent, and can be discarded from rendering\.
-
-  + **Dual Transparency**
-
-+ **Reflectivity**
-
-  + **Texture** – reflectivity texture\.
-
-  + **Environment** – environment map that you will see in the reflection\. If not selected, the current Skybox will be used\.
-
-  + **Amount** – amount of reflectivity to use\.
-
-  + **Fresnel** – a nonzero fresnel value will result in less reflection depending on the normal direction\.
-
-+ **Refractivity** – the Refraction input takes in a texture or value that simulates the index of refraction of the surface\. This is useful for things like glass and water, which refract light that passes through them\. The environment texture will be used for the refraction\.
-
-  + **Amount** – how much refraction to blend with the current color\.
-
-  + **Refraction** – the ratio of the refractive indices involved in the refraction\.
-
-+ **Blending** – the blending mode to use for the material\.
-
+  You can set the base specularity **Color**, use a **Texture**, and set the **shininess** value\.
++ **Emissive** – The self\-illumination color of an object\. You can set the emissive color by using the **Color** input and/or by using a **Texture**\.
++ **Ambient** – The color of an object where it is in shadow\. This color is what the object reflects when illuminated by ambient light instead of direct light\.
+  + **Color** The base ambient color\.
+  + **Texture** Ambient map that identifies areas on a mesh that are exposed or hidden from ambient lighting\.
++ **Opacity** – Used with transparency blending\. You can use **Strength** to input a value between 0 and 1, where 0\.0 represents completely transparent and 1\.0 represents fully opaque\.
+  + **Threshold** – Used to indicate when a surface is completely transparent, and can be discarded from rendering\.
+  + **Dual transparency** – Render both front and back surfaces of the material\.
++ **Reflectivity** – Reflectivity settings for the material\.
+  + **Texture** – Reflectivity texture\.
+  + **Environment** – Environment map that you see in the reflection\. If not selected, the current skybox is used\.
+  + **Amount** – Amount of reflectivity to use\.
+  + **Fresnel** – A nonzero fresnel value results in less reflection, depending on the normal direction\.
++ **Refractivity** – Refraction input\. Takes in a texture or value that simulates the surface's index of refraction\. This is useful for things like glass and water, which refract light that passes through them\. The environment texture is used for the refraction\.
+  + **Amount** – How much refraction to blend with the current color\.
+  + **Refraction** – Ratio of the refractive indices involved in the refraction\.
++ **Blending** – Blending mode to use for the material\.
   + **NoBlending**
-
   + **TransparencyBlending**
-
   + **CustomBlending**
-
   + **AdditiveBlending**
-
   + **SubtractiveBlending**
-
   + **MultiplyBlending**
-
-+ **Culling** – whether to cull on the triangle level, and which face \(back, front, both\) to cull\.
-
-+ **Depth** – whether to enable depth testing, depth writing and which **RenderQueue** value to use\.
-
++ **Culling** – Whether to cull on the triangle level, and which face \(back, front, both\) to cull\.
++ **Depth** – Whether to enable depth testing or depth writing, and which **RenderQueue** value to use\.
 + **Shading**
+  + **Flat** – Turn on flat shading for the mesh\.
+  + **Wireframe** – Render the mesh in wireframe mode\.
+  + **Wrap factor** – The light wrap factor\.
+  + **Wrap amount** – The light wrap amount\.
 
-  + **Flat** – turns on flat shading for the mesh\.
-
-  + **Wireframe** – renders the mesh in wireframe mode\.
-
-  + **Wrap factor** – the wrap factor\.
-
-  + **Wrap amount** – the wrap amount\.
-
-Note that Material Assets can be shared between entities\. If a Material Asset is shared, changing the look of one entity will also change the ones which are sharing the material\.
+**Note**  
+You can share material assets between entities\. If a material asset is shared, changing the look of one entity also changes the ones that are sharing the material\.

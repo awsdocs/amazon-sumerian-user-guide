@@ -1,8 +1,8 @@
 # Configuring the Canvas for Your Amazon Sumerian Scene<a name="scene-document"></a>
 
-The document panel lets you configure the size of the WebGL canvas and grid color\. These settings only apply both while you are working on a scene in the editor, and to the published scene
+You can use the document panel to configure the size of the WebGL canvas and grid color\. These settings apply only while you are working on a scene in the editor, and to the published scene\.
 
-**To configure document settings**
+**To configure the canvas using document settings**
 
 1. Open a scene in the Sumerian editor\.
 
@@ -12,12 +12,8 @@ The document panel lets you configure the size of the WebGL canvas and grid colo
 1. Expand the **Document** section in the inspector panel\.  
 ![\[Image NOT FOUND\]](http://docs.aws.amazon.com/sumerian/latest/userguide/images/scene-sections-document.png)
 
-1. Choose from the following options\.
-
-   + **Grid** – change the color of the grid\.
-
-   + **Stretch** – stretch the canvas to its container\.
-
-   + **Aspect ratio** – stretch the canvas to its container, but keep the aspect ratio\.
-
-   + **Resolution** – set a fixed size of the canvas\.
+1. Choose from the following options:
+   + **Grid** – Change the color of the grid\.
+   + **Stretch** – Stretch the canvas to its container\.
+   + **Aspect ratio** – Stretch the canvas to its container, but keep the aspect ratio\.
+   + **Resolution** – Set a fixed size of the canvas\.

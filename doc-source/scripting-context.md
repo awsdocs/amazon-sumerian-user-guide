@@ -1,26 +1,18 @@
 # The Context Object<a name="scripting-context"></a>
 
-You can use the context object, `ctx` to store your script data during the script life time\. The context is created upon setup\(\) and cleared on cleanup\(\) and is passed into all of the script functions\. It has a few pre\-defined properties:
+You can use the context object, `ctx` to store your script data during the script life time\. The context is created upon setup\(\) and cleared on cleanup\(\) and is passed into all of the script functions\. It has a the following properties:
 
 **Properties**
-
-+ `entity` \([https://docs.sumerian.amazonaws.com/engine/latest/docs/Entity.html](https://docs.sumerian.amazonaws.com/engine/latest/docs/Entity.html)\) – the entity to which the script is attached\.
-
-+ `entityData` \(`Object`\) – a data object shared between all scripts on the entity\.
-
-+ `activeCameraEntity` \([https://docs.sumerian.amazonaws.com/engine/latest/docs/Entity.html](https://docs.sumerian.amazonaws.com/engine/latest/docs/Entity.html)\) – the currently active camera entity\.
-
-+ `domElement` \(`HTMLCanvasElement`\) – the WebGL canvas element\.
-
-+ `playTime` \(`number`\) – the elapsed time since scene start\.
-
-+ `viewportHeight` \(`number`\) – the height of the canvas\.
-
-+ `viewportWidth` \(`number`\) – the width of the canvas\.
-
-+ `world` \([https://docs.sumerian.amazonaws.com/engine/latest/docs/World.html](https://docs.sumerian.amazonaws.com/engine/latest/docs/World.html)\) – the world object\.
-
-+ `worldData` \(`Object`\) – a data object shared between all scripts in the world\.
++ `entity` \([https://content.sumerian.amazonaws.com/engine/latest/docs/Entity.html](https://content.sumerian.amazonaws.com/engine/latest/docs/Entity.html)\) – The entity to which the script is attached\.
++ `entityData` \(`Object`\) – A data object shared between all scripts on the entity\.
++ `activeCameraEntity` \([https://content.sumerian.amazonaws.com/engine/latest/docs/Entity.html](https://content.sumerian.amazonaws.com/engine/latest/docs/Entity.html)\) – The currently active camera entity\.
++ `domElement` \(`HTMLCanvasElement`\) – The WebGL canvas element\.
++ `playTime` \(`number`\) – The elapsed time since scene start\.
++ `transitions` \(`Object`\) – Transition functions used to signal the success or failure of an **Execute script** action on a [state machine](sumerian-statemachines.md)\.
++ `viewportHeight` \(`number`\) – The height of the canvas\.
++ `viewportWidth` \(`number`\) – The width of the canvas\.
++ `world` \([https://content.sumerian.amazonaws.com/engine/latest/docs/World.html](https://content.sumerian.amazonaws.com/engine/latest/docs/World.html)\) – The world object\.
++ `worldData` \(`Object`\) – A data object shared between all scripts in the world\.
 
 Some of the properties on `ctx` are shared between scripts\. *entityData* is shared by all scripts on the entity and *worldData* is shared by all scripts\. They are all initially empty, and can be used to store any kind of data
 

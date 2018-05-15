@@ -1,6 +1,6 @@
-# Taking Snapshots of Your Amazon Sumerian Scene<a name="scene-snapshots"></a>
+# Creating Snapshots of Your Amazon Sumerian Scene<a name="scene-snapshots"></a>
 
-The Snapshots panel lets you create a copy of your scene that you can restore later\. This is useful when doing experimental changes to the scene\.
+You can use the Snapshots panel to create a copy of your scene that you can use to restore your scene later\. Create snapshots to set a restore point prior to trying new features or making sweeping changes to your scene\.
 
 **To create a snapshot**
 

@@ -3,7 +3,7 @@
 Add scripts to your scene to update your scene based on user input or events\. You can use scripts to access the DOM, create and modify entities with the Sumerian engine library, or use the AWS SDK for JavaScript to access AWS services and resources\.
 
 **Note**  
-Reference documentation for the Sumerian engine library is available on the [Sumerian website](https://docs.sumerian.amazonaws.com/engine/latest/docs/)\.
+Reference documentation for the Sumerian engine library is available on the [Sumerian website](https://content.sumerian.amazonaws.com/engine/latest/docs/)\.
 
 **To create a blank script**
 
@@ -17,22 +17,15 @@ Reference documentation for the Sumerian engine library is available on the [Sum
 1. Choose the new script under documents\. Use the pencil icon next to the script name to change its name\.
 
 The script template includes 7 methods and a [parameters](scripting-parameters.md) array\. The methods correspond to a scene's lifecycle events and are called by the engine at the following times\.
++ `setup` – When scene playback starts\.
++ `fixedUpdate` – On every physics update\.
++ `update` – On every render frame\.
++ `lateUpdate` – Aafter calling all `update` methods in the scene\.
++ `enter` – On a [state machine script action](statemachines-scripting.md), when the state is entered\.
++ `exit` – On a state machine script action, when the state is exited\.
++ `cleanup` – When scene playback stops\.
 
-+ `setup` – when scene playback starts\.
-
-+ `fixedUpdate` – on every physics update\.
-
-+ `update` – on every render frame\.
-
-+ `lateUpdate` – after calling all `update` methods in the scene\.
-
-+ `enter` – on a state machine script action, when the state is entered\.
-
-+ `exit` – on a state machine script action, when the state is exited\.
-
-+ `cleanup` – when scene playback stops\.
-
-
+**Topics**
 + [Built\-in Scripts](scripting-builtins.md)
 + [The Context Object](scripting-context.md)
 + [Parameters and Arguments](scripting-parameters.md)

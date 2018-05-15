@@ -3,13 +3,9 @@
 You can organize your assets and share them between scenes by creating a *pack*\. Create a pack in the assets panel and move or copy assets into it\.
 
 Packs support the following actions:
-
 + ![\[Image NOT FOUND\]](http://docs.aws.amazon.com/sumerian/latest/userguide/images/assets-icons-add.png) – Create a new asset in the pack\.
-
 + ![\[Image NOT FOUND\]](http://docs.aws.amazon.com/sumerian/latest/userguide/images/assets-icons-assetlib.png) – Export the pack to the asset library\.
-
 + ![\[Image NOT FOUND\]](http://docs.aws.amazon.com/sumerian/latest/userguide/images/assets-icons-cleanup.png) – Delete any assets in the pack that are not used in the scene\.
-
 + ![\[Image NOT FOUND\]](http://docs.aws.amazon.com/sumerian/latest/userguide/images/assets-icons-trash.png) – Delete the asset pack\.
 
 Exporting a pack adds it to the project that you choose\. If you don't have a project yet, [create one in the dashboard](dashboard-projects.md)\. You can then use the dashboard to [copy or move the pack](dashboard-assets.md) to a different scene or project\. Exported packs are not tied to the in\-scene pack or its assets\.

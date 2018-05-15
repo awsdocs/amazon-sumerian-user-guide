@@ -1,39 +1,25 @@
 # Media<a name="assets-media"></a>
 
-You can import media files into Sumerian to use as textures or audio objects\. Files up to 10 MB are supported in the following formats\.
+You can import media files into Sumerian to use as textures, audio, or text objects\. Sumerian supports the following file formats\.
 
-**Images**
-
+**Textures up to 10 MB**
 + CRN
-
 + DDS
-
 + JPG, JPEG
-
 + PNG
-
 + SVG
-
 + TGA
-
-**Sound**
-
-+ OGG
-
-+ MP3
-
-+ WAVE, WAV
-
-**Video**
-
 + MP4
-
 + OGV
-
 + WEBM
 
-**Text**
+**Audio up to 10 MB**
++ OGG
++ MP3
++ WAVE, WAV
 
+**Text up to 1 MB**
 + JS
-
 + JSON
+
+You can combine multiple asset files into a ZIP archive up to 200 MB in size, as long as each file meets the size requirement for its type when decompressed\.

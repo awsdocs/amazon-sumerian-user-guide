@@ -15,21 +15,13 @@ In the dashboard, you can change the name and description of a pack, and copy or
 1. Choose an asset pack\.
 
 1. Under **Asset details**, use one of the following options\.
-
    + **Thumbnail** – Choose **Browse** to upload a thumbnail image\.
-
    + **Name** – Change the asset pack name\.
-
    + **Description** – Change the asset pack description\.
-
    + **Tags** – Add tags to the asset pack for use with filters\.
-
    + **Actions**
-
      + **Move** – Move the asset pack to a different project\.
-
      + **Copy** – Copy the asset pack to a different project\.
-
      + **Delete** – Send the asset pack to the **Trash** 
 
 Additional options for asset packs are available in the [Sumerian editor](assets-packs.md)\.

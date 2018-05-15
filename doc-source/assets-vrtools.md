@@ -3,9 +3,7 @@
 Sumerian provides a pack of virtual reality \(VR\)\-related assets to make it easy to enable VR in your scene\. The asset pack includes a VR camera that lets the user enter VR mode, and VR controllers for interacting with the environment\.
 
 **Supported Hardware**
-
 + Oculus Rift
-
 + HTC Vive
 
 **To enable VR in your scene**

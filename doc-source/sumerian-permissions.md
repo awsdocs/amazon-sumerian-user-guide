@@ -2,24 +2,33 @@
 
 You can use AWS Identity and Access Management \(IAM\) to grant Sumerian permissions to users and compute resources in your account\. IAM controls access to AWS at the API level to enforce permissions uniformly and securely\.
 
-## User Permissions<a name="permissions-user"></a>
+## IAM Managed Policies for Sumerian<a name="permissions-managedpolicies"></a>
 
-To [use the Sumerian editor](sumerian-editor.md), add the following policy to your IAM user\.
+To make granting permissions easy, IAM supports **managed policies** for each service\. A service can update these managed policies with new permissions when it releases new APIs\. Sumerian provides managed policies for user permissions needed to use the Sumerian editor\.
++ `AmazonSumerianFullAccess` – Permission to use all Sumerian features\.
 
-```
-{
-    "Version": "2012-10-17",
-    "Statement": [
-        {
-            "Effect": "Allow",
-            "Action": [
-                "sumerian:*"
-            ],
-            "Resource": "*"
-        }
-    ]
-}
-```
+  ```
+  {
+      "Version": "2012-10-17",
+      "Statement": [
+          {
+              "Effect": "Allow",
+              "Action": [
+                  "sumerian:*"
+              ],
+              "Resource": "*"
+          }
+      ]
+  }
+  ```
+
+**To add a managed policy to an IAM user, group, or role**
+
+1. Open the [IAM console](https://console.aws.amazon.com/iam/home)\.
+
+1. Open the role associated with your instance profile, an IAM user, or an IAM group\.
+
+1. Under **Permissions**, attach the managed policy\.
 
 You only need access to Sumerians APIs\. Sumerian manages all of the storage \(Amazon S3\) and content delivery \(Amazon CloudFront\) related to the scenes that you create outside of your account\.
 
@@ -34,7 +43,6 @@ To use AWS services in a scene, the scene needs credentials as well\. You can us
 1. Choose **Create new identity pool**\.
 
 1. Create a pool with the following settings\.
-
    + **Unauthenticated identities** – enabled
 
 1. Choose **Edit identity pool** to see the pool details\.
@@ -50,9 +58,7 @@ When you create an identity pool, Amazon Cognito prompts you to create two roles
 1. Choose the role named **Cognito\_*pool\-name*Unauth\_Role**\.
 
 1. Choose **Attach policy** and add policies for the services that your scene uses\.
-
    + **Speech component** – `AmazonPollyReadOnlyAccess` gives the scene permission to use Amazon Polly to render text into audio with the [speech component](entities-speech.md)\.
-
    + **AWS SDK for JavaScript** – add policies that grant access to the services that you call with the SDK for JavaScript\. For example, `AmazonS3ReadOnlyAccess`\.
 
 Assign the identity pool to your scene under **[AWS configuration](scene-aws.md)** in scene settings\.

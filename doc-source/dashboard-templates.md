@@ -27,19 +27,11 @@ Create templates from your scenes from the [scene settings section](sumerian-sce
 1. Choose a template\.
 
 1. Under **Template details**, use one of the following options\.
-
    + **Thumbnail** – Choose **Browse** to upload a thumbnail image\.
-
    + **Name** – Change the template name\.
-
    + **Description** – Change the template description\.
-
    + **Tags** – Add tags to the template for use with filters\.
-
    + **Actions**
-
      + **Move** – Move the template to a different project\.
-
      + **Copy** – Copy the template to a different project\.
-
      + **Delete** – Send the template to the **Trash** 

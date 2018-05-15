@@ -28,55 +28,33 @@ When you add an instance of the above script to an entity, the editor shows a **
 Parameters are objects with the following required and optional fields\.
 
 **Required fields**
-
 + **key** \[string\] – a unique key used to store and retrieve the parameter values in the `args` object\.
-
 + **type** \[string\] – the [parameter type](#scripting-parameters-types)\.
-
 + **default** – the default value or values for the parameter\.
 
 **Optional fields**
-
 + `name` \[string\] – the label for the parameter field shown on instances of the script\. If you don't specify a name, the `key` is used to generate the label\.
-
 + `control` \[string enum\] – the control type\.
-
   + `slider` – a slider control\.
-
   + `color` – a color wheel\.
-
   + `select` – a drop down listing the values in the `options` field\.
-
   + `jointSelector` – a drop down listing the joints on the animation component on the script's parent entity\.
-
 + `description` \[string\] – the description shown when you hover over the parameter\.
-
 + `options` \[array\] – an array of possible values for a `select` control\.
-
 + `min` and `max` \[number\] – the minimum and maximum values for an `int` or `float` parameter\.
-
 + `decimal` \[number\] – the number of significant digits for a `float` parameter\.
-
 + `step` \[number\] – the incremental value that `float` values snap to\.
-
 + `precision` \[number\] – the number of significant digits for `float` values\.
-
 + `exponential` \[boolean\] – set to `true` to distribute the values on a `slider` control logarithmically\.
 
 ## Parameter Types<a name="scripting-parameters-types"></a>
 
 The type property must be set to one of a few predefined strings, each corresponding to a type of parameter\.
-
 + `int` – Integer number variable \(e\.g\. `1`\)\.
-
 + `float` – Number variable \(e\.g\. ` 3.14`\)\.
-
 + `string` – String \(e\.g\. `“HelloGoo”`\)\.
-
 + `boolean` – boolean \(`true` or `false`\)\.
-
 + `vec2`, `vec3`, `vec4` – an array of 2, 3, or 4 numbers\.
-
 + `texture`, `sound`, `entity`, `camera`, `animation`, `json` – an asset of the specified [type](sumerian-assets.md)\.
 
 All types in action, including a sample script:

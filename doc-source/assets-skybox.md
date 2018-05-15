@@ -13,6 +13,10 @@ A skybox is a texture that you apply to the background of a scene to show the sk
 
 1. Choose the shape of the skybox\.
 
+**Skybox Shapes**
+   + **Box** – Six square images that map onto a cube \(cube map\)\.
+   + **Sphere** – A single rectangular image that maps onto a sphere \(equirectangular projection\)\.
+
 1. Drop a texture asset or image file on each section of the skybox\.  
 ![\[Image NOT FOUND\]](http://docs.aws.amazon.com/sumerian/latest/userguide/images/assets-skybox-textures.png)
 
