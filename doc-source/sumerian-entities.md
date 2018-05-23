@@ -87,8 +87,7 @@ The following topics describe the parameters and use of each type of component\.
 
 **Content and Effects**
 + [Amazon Sumerian 2D Graphics Component](entities-2dgraphics.md)
-+ [Amazon Sumerian HTML Component](entities-html.md)
-+ [Amazon Sumerian HTML 3D Component](entities-html3d.md)
++ [Amazon Sumerian HTML Components](entities-html.md)
 + [Amazon Sumerian Sound Component](entities-sound.md)
 + [Amazon Sumerian Light Component](entities-light.md)
 + [Amazon Sumerian Particle System Component](entities-particlesystem.md)

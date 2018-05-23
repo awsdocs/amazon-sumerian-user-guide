@@ -2,9 +2,10 @@
 
 The VR camera rig component configures a virtual reality \(VR\) headset and controllers for use in VR mode during playback\. When a user has a supported headset, they can click the VR button to switch between the [main camera](entities-camera.md) and the [head mounted display \(HMD\) camera](entities-hmdcamera.md) that represents a VR headset\.
 
-**Supported Hardware**
+**Supported VR Headsets**
 + Oculus Rift
 + HTC Vive
++ HTC Vive Pro
 
 Attach the VR camera rig component to an entity with child entities for the HMD camera and each VR controller\. The [CoreVR asset pack](assets-vrtools.md) in the Sumerian library contains a rig entity with an HMD camera and controllers for each supported headset\.
 

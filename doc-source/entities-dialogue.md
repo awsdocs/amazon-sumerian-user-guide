@@ -43,7 +43,8 @@ To use an Amazon Lex bot, add a [state machine](entities-statemachine.md) to an 
 
 You can use a script to update the configuration of an entity's dialogue component in response to user input\. The following example adds a listener to two buttons to change the active bot when a button is clicked\.
 
-**Example Script – Change the active bot**  
+**Example Script – Add Event Listener to Buttons**  
++ **Entity** – Host or other entity with a dialogue component\.
 
 ```
 'use strict';
@@ -52,19 +53,32 @@ function setup(args, ctx) {
   ctx.entityData.changeBot = function(event){
     var name = event.target.getAttribute("botname");
     var alias = event.target.getAttribute("botalias");
-    console.log("Changing bot to " + name);
-    ctx.entity.dialogueComponent.updateConfig({name: name, alias: alias});
+    ctx.entity.dialogueComponent.updateConfig({name: name, alias: alias})
   };
   document.getElementById("bot1button").addEventListener('click', ctx.entityData.changeBot);
   document.getElementById("bot2button").addEventListener('click', ctx.entityData.changeBot);
 }
 ```
 
-An HTML component in the same scene creates the buttons referenced by the script\.
-
-**Example HTML – Buttons for dialogue script**  
+**Example HTML 3D component – Buttons**  
 
 ```
+ <style>
+  button {
+    background-color: #4CAF50;
+    border: none;  
+    color: white;
+    padding: 15px 25px;
+    text-align: center;
+    font-size: 16px;
+    cursor: pointer;
+  }
+
+  button:hover {
+    background-color: green;
+  }
+ </style>
+
 <button id="bot1button" botname="OrderFlowers" botalias="latest" type="button">Order Flowers</button>
 <button id="bot2button" botname="BookTrip" botalias="latest" type="button">Book Trip</button>
 ```

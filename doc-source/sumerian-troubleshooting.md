@@ -2,7 +2,14 @@
 
 This topic lists common errors and issues that you might encounter when using the Sumerian editor and player\. If you find an issue that is not listed here, you can use the **Feedback** button on this page to report it\.
 
-**Issue:** Can't enter virtual reality mode on Chrome
+**Issue:** \(Chrome\) Audio doesn't play in the Sumerian editor during playback\.
+
+Set the following flag to allow audio to play in the editor\.
++ **Autoplay policy: No user gesture is required\.** – `#autoplay-policy`
+
+To access Chrome flags, type chrome://flags into your search bar\.
+
+**Issue:** \(Chrome\) Can't enter virtual reality mode\.
 
 You may need to set the following flags to use virtual reality mode in Chrome\.
 + **WebVR** – `#enable-webvr`
@@ -11,6 +18,6 @@ You may need to set the following flags to use virtual reality mode in Chrome\.
 
 To access Chrome flags, type chrome://flags into your search bar\.
 
-**Issue:** Browser uses the wrong GPU for hardware acceleration
+**Issue:** Browser uses the wrong GPU for hardware acceleration\.
 
 If you have multiple graphics cards, you may need to configure your system to use the right GPU for browser applications\. For example, the NVIDIA control panel has an option named **target GPU** that you can set for each application\.

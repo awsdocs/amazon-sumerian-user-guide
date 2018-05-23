@@ -19,9 +19,10 @@ To use the Sumerian editor, you need permission to use Sumerian APIs on your IAM
 
 You can use the editor in recent versions of Chrome or Firefox\. To view the finished scene in VR, use the latest version of Firefox\. For VR mode, you also need a compatible headset\.
 
-**Supported Hardware**
+**Supported VR Headsets**
 + Oculus Rift
 + HTC Vive
++ HTC Vive Pro
 
 ## Create a Project and Scene<a name="sumerian-gettingstarted-create"></a>
 
