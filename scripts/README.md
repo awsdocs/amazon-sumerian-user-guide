@@ -1,12 +1,12 @@
 ## Sample Scripts
-These scripts use the Sumerian engine library to create or modify
+These scripts use the Amazon Sumerian engine library to create or modify
 scene content dynamically during playback.
 
 Some of the scripts define setup functions that run when playback
-starts. Attach these to a an entity with a script component.
+starts. Attach these to an entity using a script component.
 
 Scripts ending in "-action.js" are state machine script actions
-that define enter and exit functions that run with a state is
+that define enter and exit functions that run when a state is
 entered or exited. Attach these to a state machine behavior with
 the "execute script" action.
 
@@ -26,10 +26,10 @@ Change the Amazon Lex bot assigned to an entity.
 Change the text of an entity's speech component.
 
 ### download-lists.js
-Download a list of strings from Amazon S3 and store for later use.
+Download a list of strings from Amazon S3 and store them for later use.
 
 ### hide-entity-action.js
 Show or hide any entity in a scene.
 
 ### random-speech.js
-Choose one of speech files attached to an entity at random and play it.
+Choose one of the speech files attached to an entity at random and play it.
