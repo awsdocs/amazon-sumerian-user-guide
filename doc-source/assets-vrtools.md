@@ -4,8 +4,10 @@ Sumerian provides a pack of virtual reality \(VR\)\-related assets to make it ea
 
 **Supported VR Headsets**
 + Oculus Rift
++ Oculus Go
 + HTC Vive
 + HTC Vive Pro
++ Lenovo Mirage Solo
 
 **To enable VR in your scene**
 

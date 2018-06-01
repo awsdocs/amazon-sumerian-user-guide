@@ -21,8 +21,10 @@ You can use the editor in recent versions of Chrome or Firefox\. To view the fin
 
 **Supported VR Headsets**
 + Oculus Rift
++ Oculus Go
 + HTC Vive
 + HTC Vive Pro
++ Lenovo Mirage Solo
 
 ## Create a Project and Scene<a name="sumerian-gettingstarted-create"></a>
 

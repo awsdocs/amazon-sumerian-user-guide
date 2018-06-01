@@ -10,6 +10,7 @@ The editor also has several built\-in scripts that provide standard functionalit
 + **Pan camera control** – Lets the user pan the camera by holding a mouse button and moving the mouse\.
 + **Mouse look control** – Lets the user look around by holding a mouse button and moving the mouse\.
 + **WASD control** – Lets the user walk around on the XZ plane with the keyboard\.
++ **Augmented reality camera script** – In an augmented reality \(AR\) scene, follow the device camera\.
 
 **Object scripts**
 + **Button** – Lets the user click on an object to open a URL\.

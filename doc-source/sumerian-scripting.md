@@ -3,7 +3,7 @@
 Add scripts to your scene to update your scene based on user input or events\. You can use scripts to access the DOM, create and modify entities with the Sumerian engine library, or use the AWS SDK for JavaScript to access AWS services and resources\.
 
 **Note**  
-Reference documentation for the Sumerian engine library is available on the [Sumerian website](https://content.sumerian.amazonaws.com/engine/latest/docs/)\.
+Visit this guide's [GitHub repo](https://github.com/awsdocs/amazon-sumerian-user-guide/tree/master/scripts) for a collection of useful sample scripts\. Contributions are welcome\!
 
 **To create a blank script**
 
@@ -24,6 +24,8 @@ The script template includes 7 methods and a [parameters](scripting-parameters.m
 + `enter` – On a [state machine script action](statemachines-scripting.md), when the state is entered\.
 + `exit` – On a state machine script action, when the state is exited\.
 + `cleanup` – When scene playback stops\.
+
+Reference documentation for the Sumerian engine library is available on the [Sumerian website](https://content.sumerian.amazonaws.com/engine/latest/docs/)\.
 
 **Topics**
 + [Built\-in Scripts](scripting-builtins.md)
