@@ -53,7 +53,6 @@ function setup(args, ctx) {
     const skybox = new sumerian.Skybox(sumerian.Skybox.SPHERE, url, null, 0, false);
     ctx.worldData.skysphere = ctx.world.createEntity(skybox.transform, skybox.materials[0], skybox.meshData);
     ctx.worldData.skysphere.addToWorld();
-    return;
   }
 
   ctx.worldData.skyboxbucket = args.bucket;
