@@ -4,6 +4,7 @@ The assets panel in Sumerian collects shareable assets in the scene\. When you a
 
 **Asset Types**
 + ![\[Image NOT FOUND\]](http://docs.aws.amazon.com/sumerian/latest/userguide/images/assets-icons-entity.png) **Entity** – A [Sumerian entity](sumerian-entities.md)\. If you import a file or asset pack, drop the entity from the assets panel onto the canvas to add it to your scene\.
++ ![\[Image NOT FOUND\]](http://docs.aws.amazon.com/sumerian/latest/userguide/images/assets-icons-gesturemap.png) **Gesture map** – A document that maps gesture animations to trigger words in a speech asset\.
 + ![\[Image NOT FOUND\]](http://docs.aws.amazon.com/sumerian/latest/userguide/images/assets-icons-mesh.png) **Mesh** – A polygon mesh from a 3D model\.
 + ![\[Image NOT FOUND\]](http://docs.aws.amazon.com/sumerian/latest/userguide/images/assets-icons-skeleton.png) **Skeleton** – A skeleton and animations from a 3D model\.
 + ![\[Image NOT FOUND\]](http://docs.aws.amazon.com/sumerian/latest/userguide/images/assets-icons-material.png) **Material** – A [material component](entities-material.md) with textures for each renderable layer generated from a 3D model\.

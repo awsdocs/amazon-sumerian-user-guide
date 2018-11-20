@@ -8,12 +8,11 @@ Transform actions change the translation, rotation, and scale of the entity\. Tw
 + **Look at** – Rotate the entity to face a point in space\.
 + **Tween look at** – Smoothly rotate the entity to face a point in space over time\.
 + **Face current camera** – Rotate the entity to face the active camera\.
-+ **Move** – Move the entity\.
-+ **Tween move** – Smoothly move the entity over time\.
-+ **Rotate** – Change the entity's rotation values\.
-+ **Tween rotate** – Smoothly rotate the entity over time\.
-+ **Scale** – Change the entity's scale values\.
-+ **Tween scale** – Smoothly scale the entity over time\.
++ **Move**, **Rotate**, and **Scale** – Move, rotate, or scale the entity immediately\.
+  + \(move\) **Oriented** – If the entity is rotated, move relative to the current rotation\. For example, moving a host 1 unit on the X axis with oriented always moves the host to their right, on the host's X axis\. If not oriented, the host moves on the world X axis, regardless of which direction it faces\.
+  + **Relative** – Move, rotate, or scale relative to the current transform values\. Uncheck to set new tranform values absolutely\.
+  + **On every frame** – Repeat a relative transform while the state is active, spreading the specified values over each second that passes\. For example, you can add 90 degrees of rotation *relative*, and *on every frame*\. If the scene renders at 60 frames per second, the entity rotates 1\.5 degrees every frame until a transition occurs\.
++ **Tween move**, **Tween rotate**, **Tween scale** – Smoothly move, rotate, or scale the entity over time\.
 + **Shake** – Shake the entity\.
 
 Animation actions control the entity's animation component\.

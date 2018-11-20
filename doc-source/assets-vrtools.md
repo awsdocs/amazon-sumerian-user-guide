@@ -8,6 +8,8 @@ Sumerian provides a pack of virtual reality \(VR\)\-related assets to make it ea
 + HTC Vive
 + HTC Vive Pro
 + Lenovo Mirage Solo
++ Samsung Gear VR
++ Google Daydream
 
 **To enable VR in your scene**
 

@@ -20,7 +20,7 @@ The script template includes 7 methods and a [parameters](scripting-parameters.m
 + `setup` – When scene playback starts\.
 + `fixedUpdate` – On every physics update\.
 + `update` – On every render frame\.
-+ `lateUpdate` – Aafter calling all `update` methods in the scene\.
++ `lateUpdate` – After calling all `update` methods in the scene\.
 + `enter` – On a [state machine script action](statemachines-scripting.md), when the state is entered\.
 + `exit` – On a state machine script action, when the state is exited\.
 + `cleanup` – When scene playback stops\.

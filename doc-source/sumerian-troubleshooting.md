@@ -2,13 +2,6 @@
 
 This topic lists common errors and issues that you might encounter when using the Sumerian editor and player\. If you find an issue that is not listed here, you can use the **Feedback** button on this page to report it\.
 
-**Issue:** \(Chrome\) Audio doesn't play in the Sumerian editor during playback\.
-
-Set the following flag to allow audio to play in the editor\.
-+ **Autoplay policy: No user gesture is required\.** – `#autoplay-policy`
-
-To access Chrome flags, type chrome://flags into your search bar\.
-
 **Issue:** \(Chrome\) Can't enter virtual reality mode\.
 
 You may need to set the following flags to use virtual reality mode in Chrome\.

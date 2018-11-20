@@ -1,6 +1,6 @@
 # Configuring the Canvas for Your Amazon Sumerian Scene<a name="scene-document"></a>
 
-You can use the document panel to configure the size of the WebGL canvas and grid color\. These settings apply only while you are working on a scene in the editor, and to the published scene\.
+You can use the document section to configure the size of the WebGL canvas and grid color\. These settings apply only while you are working on a scene in the editor, and to the published scene\.
 
 **To configure the canvas using document settings**
 

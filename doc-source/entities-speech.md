@@ -7,9 +7,11 @@ To use Amazon Polly during playback, the scene needs AWS credentials from Amazon
 ![\[Image NOT FOUND\]](http://docs.aws.amazon.com/sumerian/latest/userguide/images/components-speech.png)
 
 **Properties**
-+ **Voice** – An [Amazon Polly voice](http://docs.aws.amazon.com/polly/latest/dg/voicelist.html)\.
-+ **Volume** – Volume of the rendered audio\.
++ **3D audio** – Adjust the volume of the speech audio based on the distance of the entity from the camera\.
++ **Voice** – An [Amazon Polly voice](https://docs.aws.amazon.com/polly/latest/dg/voicelist.html)\.
++ **Volume** – Volume of the speech audio\.
 + **Speech files** – Drop text files here to add them to the component\. Click ![\[Image NOT FOUND\]](http://docs.aws.amazon.com/sumerian/latest/userguide/images/components-speech-addgestures.png) to mark up a speech file with gestures\.
++ **Gesture map** – A document that maps gestures to words\. When you mark up a speech file, the editor uses this mapping to determine where to add gestures\. You can modify the gesture map using [text editor](editor-tools.md#editor-tools-texteditor)\.
 
 To trigger a speech during playback, use a state machine or script component on the same entity\.
 
@@ -18,6 +20,8 @@ To trigger a speech during playback, use a state machine or script component on 
 To play a speech, add a [state machine](entities-statemachine.md) to the entity with the speech component\. Add a state with **AWS SDK ready** and **Start speech** actions\.
 
 ![\[Image NOT FOUND\]](http://docs.aws.amazon.com/sumerian/latest/userguide/images/components-speech-state.png)
+
+For more information, see [AWS Feature State Machine Actions in Amazon Sumerian](statemachines-aws.md)\.
 
 ## Script<a name="entities-speech-script"></a>
 

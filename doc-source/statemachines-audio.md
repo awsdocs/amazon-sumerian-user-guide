@@ -2,10 +2,9 @@
 
 You can use state machine actions in Amazon Sumerian to control audio settings and the scene camera\.
 
-Audio actions 
-
 **Audio Actions**
-+ **Mute**, **Toggle mute**, and **Unmute** – Mute or unmute all sounds in the scene\. **Toggle mute** mutes if sound is currently unmuted and vice\-versa\.
++ **Mute**, **Toggle mute**, and **Unmute** – Mute or unmute sounds in the scene\. **Toggle mute** mutes if sound is currently unmuted and vice\-versa\.
+  + **Audio system** – Mute all audio in the scene, just [sound component](entities-sound.md) audio, or just [speech component](entities-speech.md) audio\.
 + **Play sound**, **Pause sound**, and **Stop sound** – Play, pause, or stop a sound from the entity's sound component\.
 + **Sound fade in** and **Sound fade out** – Start or stop a sound with a fade\.
 + **Start microphone recording** – Start recording audio from microphone input\.

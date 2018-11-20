@@ -8,6 +8,8 @@ The VR camera rig component configures a virtual reality \(VR\) headset and cont
 + HTC Vive
 + HTC Vive Pro
 + Lenovo Mirage Solo
++ Samsung Gear VR
++ Google Daydream
 
 Attach the VR camera rig component to an entity with child entities for the HMD camera and each VR controller\. The [CoreVR asset pack](assets-vrtools.md) in the Sumerian library contains a rig entity with an HMD camera and controllers for each supported headset\.
 

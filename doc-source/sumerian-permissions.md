@@ -32,7 +32,7 @@ To make granting permissions easy, IAM supports **managed policies** for each se
 
 You only need access to Sumerians APIs\. Sumerian manages all of the storage \(Amazon S3\) and content delivery \(Amazon CloudFront\) related to the scenes that you create outside of your account\.
 
-## Scene Permissions<a name="permissions-scene"></a>
+## Granting a Scene Access to AWS Services<a name="permissions-scene"></a>
 
 To use AWS services in a scene, the scene needs credentials as well\. You can use Amazon Cognito Identity to create an identity pool that gives the scene access to a role with permission to use AWS\. Create a role that has permissions to any services that you will access from scripts, and permissions for components that use AWS services\.
 
@@ -62,3 +62,43 @@ When you create an identity pool, Amazon Cognito prompts you to create two roles
    + **AWS SDK for JavaScript** – add policies that grant access to the services that you call with the SDK for JavaScript\. For example, `AmazonS3ReadOnlyAccess`\.
 
 Assign the identity pool to your scene under **[AWS configuration](scene-aws.md)** in scene settings\.
+
+## Restricting Access to a Published Scene<a name="permissions-amplify"></a>
+
+To prevent public access to a scene, embed it in a web app by using AWS Amplify\. When you [deploy a scene privately](editor-publish.md), Amazon Sumerian packages it for playback but doesn't publish it to a public location\. You can then use the Amplify library to load it into your app\.
+
+Amplify uses credentials from an Amazon Cognito identity pool to download a scene securely from Sumerian\. You can grant your identity pool's role access to all scenes in your account, or just to scenes in a specific project\.
+
+To grant access to all scenes, add the following policy to your identity pool's role\.
+
+```
+{
+  "Version": "2012-10-17",
+  "Statement": [
+    {
+      "Effect": "Allow",
+      "Action": [
+        "sumerian:ViewRelease"
+      ],
+      "Resource": "*"
+    }
+  ]
+}
+```
+
+To grant access to a single project, specify the project by using the `Resource` key\.
+
+```
+{
+  "Version": "2012-10-17",
+  "Statement": [
+    {
+      "Effect": "Allow",
+      "Action": [
+        "sumerian:ViewRelease"
+      ],
+      "Resource": "arn:aws:sumerian:region:accountid:project:projectname"
+    }
+  ]
+}
+```

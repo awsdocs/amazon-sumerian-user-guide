@@ -16,12 +16,13 @@ The chatbot action has three transitions, and can respond differently depending 
 
 Sumerian provides many actions, organized into the following categories\.
 
-**Topics**
-+ [Animation State Machine Actions in Amazon Sumerian](statemachines-animation.md)
-+ [Audio and Camera State Machine Actions in Amazon Sumerian](statemachines-audio.md)
-+ [AWS Feature State Machine Actions in Amazon Sumerian](statemachines-aws.md)
-+ [Keyboard and Mouse State Machine Actions in Amazon Sumerian](statemachines-controls.md)
-+ [Effects and Lighting State Machine Actions in Amazon Sumerian](statemachines-effects.md)
-+ [Materials and Rendering State Machine Actions in Amazon Sumerian](statemachines-materials.md)
-+ [Physics and Collision State Machine Actions in Amazon Sumerian](statemachines-physics.md)
-+ [Logic and Transition State Machine Actions in Amazon Sumerian](statemachines-scripting.md)
+**State Machine Actions**
++ [Animation](statemachines-animation.md) – Animate and transform entities\.
++ [Audio and Camera](statemachines-audio.md) – Control audio settings and the scene camera\.
++ [AWS Features](statemachines-aws.md) – Control Sumerian features that call other AWS services, including speech \(Amazon Polly\) and dialogue \(Amazon Lex\)\.
++ [Keyboard and Mouse](statemachines-controls.md) – Respond to keyboard, mouse, and touch events\.
++ [Effects and Lighting](statemachines-effects.md) – Modify scene lighting or add special effects\.
++ [Materials and Rendering](statemachines-materials.md) – Modify entity textures and visibility\.
++ [Physics and Collision](statemachines-physics.md) – Apply physics and check for collisions\.
++ [Logic and Transitions](statemachines-scripting.md) – Run scripts, respond to events, and add transitions to a state\.
++ [Attributes and Tags](statemachines-attributes.md) – Manage entity metadata and perform transitions based on the value of a string, number, or boolean\.

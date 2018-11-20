@@ -32,7 +32,7 @@ In the post effects section of the inspector panel, you can add rendering effect
   + **Opacity** – The blending multiplier for the effect\.
 + **Blur** – Blur the entire scene to make it appear out of focus\.
   + **Amount** – The amount of blending that causes the blur\.
-  + **Size** –The size of the blur area\.
+  + **Size** – The size of the blur area\.
 + **Contrast** – Adjust the brightness, contrast, and saturation\.
   + **Brightness** – Remove or add brightness\.
   + **Contrast** – Adjust the contrast\.

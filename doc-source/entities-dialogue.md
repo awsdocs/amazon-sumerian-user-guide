@@ -39,6 +39,8 @@ To use an Amazon Lex bot, add a [state machine](entities-statemachine.md) to an 
 
 ![\[\]](http://docs.aws.amazon.com/sumerian/latest/userguide/images/components-dialogue-state-audio.png)
 
+For more information, see [AWS Feature State Machine Actions in Amazon Sumerian](statemachines-aws.md)\.
+
 ## Script<a name="entities-dialogue-script"></a>
 
 You can use a script to update the configuration of an entity's dialogue component in response to user input\. The following example adds a listener to two buttons to change the active bot when a button is clicked\.

@@ -10,7 +10,7 @@ Use environment settings to configure your scene's background image, ambient lig
 ![\[Image NOT FOUND\]](http://docs.aws.amazon.com/sumerian/latest/userguide/images/editor-entities-scene.png)
 
 1. Expand the **Environment** section in the inspector panel\.  
-![\[Image NOT FOUND\]](http://docs.aws.amazon.com/sumerian/latest/userguide/images/scene-sections-environment.png)
+![\[\]](http://docs.aws.amazon.com/sumerian/latest/userguide/images/scene-sections-environment.png)
 
 1. Configure the following settings:
    + **Background** – Set the background color of the scene, and its opacity\.
