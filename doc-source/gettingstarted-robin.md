@@ -31,6 +31,10 @@ When you import a model file, Sumerian processes it and stores the resulting ass
    + **Material** – The material that contains the texture and shader configuration for the model\.
    + **mesh\_Material\_Mesh** – The model's wireframe mesh\.
    + **Skeleton** – The animation skeleton from the model's armature\.
+   + **Armature\|BEAK**, **Armature\|HOP**, **Armature\|JUMP**, **Armature\|PECK**, **Armature\|FLAP** – A clip for each animation take in the model file\.
+   + **Animations** – A container for the animation clips that can be applied to an [animation component](entities-animation.md)\.
+
+For more information about each type of asset, see [Amazon Sumerian Assets](sumerian-assets.md)\.
 
 Adding the model to your scene is a separate step that takes the assets from the model and creates entities that represent them in the scene\.
 
@@ -44,7 +48,7 @@ Adding the model to your scene is a separate step that takes the assets from the
    + **light\-1**, **light\-2**, **light\-3** – Three point lights that light the model\. You can drag these to a different location in the hierarchy or delete them and create new lights\.
    + **Armature** – An empty entity that represents the armature that was used to rig the model for animation\.
 
-Adding the model to your scene creates a copy of the entities that it comprises\. The other types of asset in the model, however, are referenced from the scene's assets\. So when you add the same model to your scene multiple times, they have independent entity settings, such as location, rotation, and scale\. But they also share references to the texture and material assets\.
+Adding the model to your scene creates a copy of the entities that it comprises\. The other types of asset in the model, however, are referenced from the scene's assets\. So when you add the same model to your scene multiple times, they have independent entity settings, such as location, rotation, and scale\. But they also share references to the texture, material, and animation assets\.
 
 If, for example, you change the opacity on the material component of the **thrush\_Material** entity, it changes the settings on that material in the **Assets** panel, and on any other copies of the model created in the past or in the future\. Alternatively, if you change the **Y** rotation of the entity in the scene, it affects only that instance of the model\. And if you change the rotation of the entity in the **Assets** panel, it affects only new copies of the model that you add to the scene after setting the rotation\.
 

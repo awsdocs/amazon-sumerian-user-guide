@@ -55,9 +55,9 @@ The type property must be set to one of a few predefined strings, each correspon
 + `string` – String \(e\.g\. `“HelloGoo”`\)\.
 + `boolean` – boolean \(`true` or `false`\)\.
 + `vec2`, `vec3`, `vec4` – an array of 2, 3, or 4 numbers\.
-+ `texture`, `sound`, `entity`, `camera`, `animation`, `json` – an asset of the specified [type](sumerian-assets.md)\.
++ `texture`, `sound`, `entity`, `camera`, `animstate`, `json` – an asset of the specified [type](sumerian-assets.md)\.
 
-All types in action, including a sample script:
+The following example parameter declaration shows all of the available types\.
 
 ```
 var parameters = [
@@ -72,7 +72,7 @@ var parameters = [
     {type: 'sound', key: 'sound', description: 'Sound asset drop area'},
     {type: 'entity', key: 'entity', description: 'Entity drop area'},
     {type: 'camera', key: 'camera', description: 'Camera drop down'},
-    {type: 'animation', key: 'animation', description: 'Animation state from the Animation component on the same entity'},
+    {type: 'animstate', key: 'animation', description: 'Animation state from the animation component on a parent entity'},
     {type: 'json', key: 'json', description: 'JSON asset drop area'},
     {type: 'float', control: 'slider', key: 'floatSlider', 'default': 10.1, min: 5, max: 15, exponential: false, decimal: 1, description: 'Float slider input'},
     {type: 'int', control: 'slider', key: 'intSlider', 'default': 10, min: 5, max: 15, exponential: false, description: 'Integer slider input'},
