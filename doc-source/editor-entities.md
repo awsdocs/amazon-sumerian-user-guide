@@ -12,3 +12,5 @@ Organize your entities by their physical or logical relationship to other entiti
 + ![\[Image NOT FOUND\]](http://docs.aws.amazon.com/sumerian/latest/userguide/images/entities-icons-duplicate.png) – Duplicate an entity\.
 + ![\[Image NOT FOUND\]](http://docs.aws.amazon.com/sumerian/latest/userguide/images/entities-icons-trash.png) – Delete an entity\.
 + ![\[Image NOT FOUND\]](http://docs.aws.amazon.com/sumerian/latest/userguide/images/entities-icons-undo.png) – Undo or redo changes\.
+
+Double click an entity's name to rename it\. Double click the entity's icon to frame it in the canvas\.

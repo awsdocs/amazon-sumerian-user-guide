@@ -1,6 +1,6 @@
 # Parameters and Arguments<a name="scripting-parameters"></a>
 
-Parameters let you create scripts that are customizable by adding fields to the script properties in the editor\. For example, the following script defines a parameter named `Velocity` that takes 3 numbers \(a [`vec3` parameter](#scripting-parameters-types)\)\.
+Parameters let you create scripts that are customizable by adding fields to the script properties in the editor\. For example, the following script defines a parameter named `Velocity` that takes 3 numbers \(a [`vec3` parameter](#scripting-parameters-types)\)\. The setup function gets the value of the parameter from the `args` object\.
 
 ```
 var setup = function(args, ctx){

@@ -40,7 +40,8 @@ If you click on the name of the scene or double\-click the thumbnail, the scene 
    + **Tags** – Add tags to the scene for use with filters\.
    + **Actions**
      + **Open** – Open the scene in the Sumerian editor\.
-     + **View published** – Open the published version of the scene hosted in Amazon CloudFront\.
+     + **View published** – \(public scenes\) Open the published version of the scene hosted in Amazon CloudFront\.
+     + **Download Amplify JSON** – \([private scenes](editor-publish.md)\) Download the Amplify configuration file\.
      + **Move** – Move the scene to a different project\.
      + **Copy** – Copy the scene to a different project\.
      + **Duplicate** – Create a copy of the scene in the same project\.

@@ -1,6 +1,6 @@
 # Amazon Sumerian Hosts<a name="assets-hosts"></a>
 
-A host is a asset provided by Sumerian that has built in animation, speech, and behavior for interacting with users\. Use hosts to engage users in conversation and convey information\.
+A host is an asset provided by Sumerian that has built in animation, speech, and behavior for interacting with users\. Use hosts to engage users in conversation and convey information\.
 
 ![\[Image NOT FOUND\]](http://docs.aws.amazon.com/sumerian/latest/userguide/images/hosts.png)
 

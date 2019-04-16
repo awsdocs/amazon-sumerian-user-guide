@@ -12,7 +12,7 @@ If you don't have an identity pool, follow the instructions under [Amazon Sumeri
 1. Choose the root node in the **Entities** panel\.  
 ![\[Image NOT FOUND\]](http://docs.aws.amazon.com/sumerian/latest/userguide/images/editor-entities-scene.png)
 
-1. Expand the **AWS Configuration** section in the inspector panel\.
+1. Expand the **AWS configuration** section in the inspector panel\.
 
 1. Enter an Amazon Cognito identity pool ID\.  
 ![\[Image NOT FOUND\]](http://docs.aws.amazon.com/sumerian/latest/userguide/images/scene-sections-aws.png)

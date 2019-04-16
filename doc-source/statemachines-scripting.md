@@ -5,16 +5,13 @@ You can use state machine actions in Amazon Sumerian to run [scripts](sumerian-s
 Logic actions perform calculations, run scripts, or interact with the page document\.
 
 **Logic Actions**
-+ **Compare counter** and **Compare 2 counters** – Compare a counter with a set value, or compare the value of two counters\.
 + **DOM listen** – Add a DOM event listener on one or many elements \(specified by a query selector\), and perform a transition on a given event\.
 + **Emit message** – Emit a message \(a ping\) to a channel on the bus\. Messages can be listened to by the **Listen** transition action, or by scripts using the `SystemBus.addListener(channel, callback)` function\.
 + **Execute script** – Run a [script](sumerian-scripting.md), and transition on success or failure\. Use the `enter` and `exit` functions in your script to run code when the state is entered and exited\. To trigger a transition, call `ctx.transitions.success()` or `ctx.transitions.failure()` on [the context object](scripting-context.md)\.
 + **Execute script condition** – Evaluate an expression, and transition on a true or false result\.
 + **Execute script expression** – Execute a statement\.
 + **Get HTML text** and **Set HTML text** – Read or change the contents of an HTML element\.
-+ **Increment counter** – Increment a counter with a value\.
 + **Log message** – Print a message in the debug console of your browser\.
-+ **Set counter** – Change a counter to a value\.
 + **Toggle full screen** – Expand the scene to fill the screen\. For browsers to allow this, the previous state must have a [Click or tap on entity](statemachines-controls.md) action that transitions to the state that runs this action\.
 
 Timeline actions interact with the entity's timeline component\.

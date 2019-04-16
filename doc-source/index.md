@@ -1,7 +1,7 @@
 # Amazon Sumerian User Guide
 
 -----
-*****Copyright &copy; 2018 Amazon Web Services, Inc. and/or its affiliates. All rights reserved.*****
+*****Copyright &copy; 2019 Amazon Web Services, Inc. and/or its affiliates. All rights reserved.*****
 
 -----
 Amazon's trademarks and trade dress may not be used in 
@@ -94,3 +94,4 @@ Amazon's trademarks and trade dress may not be used in
    + [External Dependencies](scripting-dependencies.md)
    + [Debugging](scripting-debugging.md)
 + [Troubleshooting Issues with Amazon Sumerian Scenes](sumerian-troubleshooting.md)
+   + [Profiling Amazon Sumerian Scenes](troubleshooting-profiling.md)
