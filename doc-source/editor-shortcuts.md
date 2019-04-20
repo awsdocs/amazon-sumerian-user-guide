@@ -30,12 +30,13 @@ Select entities by clicking them in either the editor or the **Entities** panel\
 + **Undo** –  Ctrl Z 
 + **Redo** –  Ctrl Shift Z 
 
-Use the following commands to open the text editor, timeline editor, and publishing menu\.
+Use the following commands to open the text editor, timeline editor, publishing menu, and export the scene\.
 
 **Tools**
 + **Text editor** – J
 + **Timeline** – T
 + **Publish** –  Ctrl Shift P 
++ **Export Scene** - Ctrl E
 
 With the timeline open, use the following commands to adjust keyframes and playheads\.
 
